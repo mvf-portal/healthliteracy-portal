@@ -1,1 +1,93 @@
-[]
+[
+ {
+  "pmid": "42571051",
+  "journal": "Sociol Health Illn",
+  "year": "2026",
+  "author": "Skovgaard AL et al.",
+  "pubdate": "Sept. 2026",
+  "added": "09.08.2026",
+  "transfer": "Dänemark, europäisches System; Qualitative Befunde zu SDM-Implementierung unter Unsicherheit universal.",
+  "title": "Shared Decision-Making in der Orthopädischen Schulter-Klinik: ethnografische Studie zu Entscheidungsarbeit unter Unsicherheit",
+  "sum": "Ethnografische Feldarbeit in zwei dänischen Schulter-Kliniken untersuchte, wie SDM-Modelle mit alltäglichen Anliegen von Patienten und Klinikern unter Unsicherheit umgehen; pragmatistisches Rahmenwerk.",
+  "result": "Entscheidungsfindung emergiert als interaktionale Arbeit in der 'subjektiven Stimmung', um Behandlungsvorschläge akzeptabel zu machen. Zweifel und Hoffnung sind inhärente Elemente, nicht zu vermeiden. SDM-Richtlinien berücksichtigen nicht vollständig die komplexen subjektiven Belange von Patienten und Klinikern, die mit hochgradig unsicheren Terrains navigieren. Pragmatistische Ideale (Anerkennung von Unsicherheit, interaktive Sinnbildung) sind fundamental.",
+  "aufgenommen": "2026-08-18"
+ },
+ {
+  "pmid": "42555370",
+  "journal": "Health Promot Int",
+  "year": "2026",
+  "author": "Kalteis M et al.",
+  "pubdate": "01.07.2026",
+  "added": "05.08.2026",
+  "transfer": "Deutschland und europäische Bildungssysteme haben vergleichbare Strukturen; Fokus auf Schulen übertragbar.",
+  "title": "Fachkompetenz zum Hinterfragen von Gesundheitsinformation: Interventionen zur Förderung von Critical Health Literacy",
+  "sum": "Systematische Übersicht identifizierte 81 Publikationen mit 53 Interventionen zur Förderung kritischer Gesundheitskompetenz (CHL); Schwerpunkt lag auf Appraisal-Fähigkeiten für informierte Entscheidungen in Bildungseinrichtungen.",
+  "result": "53 Interventionen in 19 Ländern, überwiegend in Schulen und Universitäten; Publikationen nahmen seit 2016 zu, Peak 2021–2025; Barrieren waren Zeitmangel, Ressourcenengpässe und hohe Anforderungen an Lehrende; Facilitators waren Leadershipsupport, Schulung und hochwertige Lernmaterialien.",
+  "aufgenommen": "2026-08-18"
+ },
+ {
+  "pmid": "42550057",
+  "journal": "Health Expect",
+  "year": "2026",
+  "author": "McCarron SA et al.",
+  "pubdate": "Aug. 2026",
+  "added": "04.08.2026",
+  "transfer": "Großbritannien (Nordirland), NHS-System; vergleichbarer Maternity Care und Community-Engagement.",
+  "title": "Antenatal Intervention für Impfakzeptanz entwickelt durch Einbeziehung von Eltern, Patienten und Öffentlichkeit",
+  "sum": "Entwicklung einer pränatalen Intervention zur Verbesserung der Impfakzeptanz mittels systematischer Patientenbeteiligung (PPPIE) in Nordirland; Partnerschaft mit Maternity Service Liaison Committee, Sure Start Programmen und community outreach clinic.",
+  "result": "Input von Eltern und Gemeinschaften formte Inhalt, Timing und Präsentation von Impfinformation. Beteiligung zeigte: Wichtigkeit klarer, Plain-Language-Information früh in Schwangerschaft; Bedarf nach Tailoring für unterschiedliche Bedürfnisse. Arbeit über etablierte Community-Netzwerke erreichte unterrepräsentierte Gruppen; 'you said, we did'-Ansatz demonstrierte Einfluss der Beteiligung.",
+  "aufgenommen": "2026-08-18"
+ },
+ {
+  "pmid": "42501755",
+  "journal": "Eur J Public Health",
+  "year": "2026",
+  "author": "Romeo-Cervera P et al.",
+  "pubdate": "10.06.2026",
+  "added": "25.07.2026",
+  "transfer": "Multiple europäische Länder, vergleichbare Gesundheitssysteme und Prävention; ECAC auf deutschem Markt relevant.",
+  "title": "Krebsprävention verstehen: Ungleichheiten in Prävention-Kompetenz und Awareness in der EU",
+  "sum": "Cross-sectional Online-Befragung in 23 EU-Ländern (n = 2.312; Februar–März 2024) zur Krebsprävention-Gesundheitskompetenz (CPL), Awareness zum European Code Against Cancer (ECAC) und Assoziation mit sozialen Determinanten und digitaler Health Literacy.",
+  "result": "81,4% mit ausreichender CPL, aber nur 61,1% kannten den ECAC. Männer weniger wahrscheinlich ausreichend CPL als Frauen (OR 0,66; [0,49–0,89]). Unter-Universitäts-Bildung: niedrigere Odds für CPL (OR 0,50; [0,39–0,64]). Digitale Health Literacy stärkster Prädiktor: höchste Quartile 3,11-fach höhere Chancen für CPL als niedrigste (OR 3,11; [2,12–4,67]). Persönliche/familiale Krebsgeschichte erhöhte Chancen (OR 1,47; [1,10–1,94]). Persistierende Ungleichheiten nach Bildung, Geschlecht, Alter.",
+  "aufgenommen": "2026-08-18"
+ },
+ {
+  "pmid": "42493198",
+  "journal": "Open Heart",
+  "year": "2026",
+  "author": "Wennstig AC et al.",
+  "pubdate": "23.07.2026",
+  "added": "23.07.2026",
+  "transfer": "Schweden, ähnliches Versicherungssystem; Primärprävention in Bevölkerungsscreening übertragbar.",
+  "title": "Verständliche Informationen über stille Atherosklerose: Effekt auf Adhärenz zu Lebensstiländerungen",
+  "sum": "Pragmatische RCT (VIPVIZA) mit 3.532 Teilnehmern aus der Västerbotten Intervention Programme in Schweden untersuchte Effekt von bildgestützten Informationen (Carotis-Ultraschall, Farbcodierung, Texte zur Atherosklerose) auf Adhärenz zu Lebensstiländerungen über 3 Jahre.",
+  "result": "OR für gesünderes Lebensstiländerungsindex nach 3 Jahren: 1,20 (95% CI 1,01–1,42; p = 0,03) in der Interventionsgruppe vs. Kontrolle. Keine Interaktionen für Alter, Geschlecht oder Bildung. Pictorial-basierte Information über subklinische Atherosklerose trug zu anhaltenden gesunden Gewohnheiten bei, obwohl Effekt moderat war.",
+  "aufgenommen": "2026-08-18"
+ },
+ {
+  "pmid": "42480063",
+  "journal": "J Med Internet Res",
+  "year": "2026",
+  "author": "Schröder R et al.",
+  "pubdate": "21.07.2026",
+  "added": "21.07.2026",
+  "transfer": "Deutschland, schulisches System; kurzmodular und digital flexible Umsetzung übertragbar.",
+  "title": "Digitale Gesundheitskompetenz durch Mobile Lernmodule: Effektivität bei Jugendlichen und Lehrenden",
+  "sum": "RCT mit aktiver Kontrollgruppe evaluierte eine 10-minütige Mobile-Learning-Intervention zur Förderung digitaler Health Literacy (Grafikliteralität) bei Jugendlichen (14–17 Jahre) und Lehrenden in Deutschland.",
+  "result": "Jugendliche (n = 251 Intervention, n = 249 Kontrolle): signifikanter Interaktionseffekt nur für objektives Wissen (η²p = 0,124; p < 0,001), nicht für subjektives Wissen, Evaluierung von Zuverlässigkeit oder Relevanzbestimmung. Lehrende (n = 301/302): signifikante Effekte für subjektives Wissen (η²p = 0,051; p < 0,001), objektives Wissen (η²p = 0,177; p < 0,001) und Zuverlässigkeitsbewertung (η²p = 0,010; p = 0,01). Beide Gruppen bewerteten visuelle und pädagogische Qualität positiv. Kurzinterventionen lehren Fakten, brauchen aber umfassendere Ansätze für tiefere Digital-Health-Literacy.",
+  "aufgenommen": "2026-08-18"
+ },
+ {
+  "pmid": "42456271",
+  "journal": "Patient Educ Couns",
+  "year": "2026",
+  "author": "Michiels L et al.",
+  "pubdate": "09.07.2026",
+  "added": "15.07.2026",
+  "transfer": "Belgien (Flandern), vergleichbares Versicherungssystem; Gatekeeping und Ressourcendruck europäisch ähnlich.",
+  "title": "Shared Decision-Making für Lungenkrebs-Screening: Verständnis und Beteiligung vor Programmstart",
+  "sum": "Gemischte Methoden (Scoping Review von 35 Studien plus qualitative Interviews mit 22 Gesundheitsfachpersonen und 13 Screening-Kandidaten) untersuchten SDM-Implementierung für Lungenkrebs-Screening in Belgien.",
+  "result": "Scoping Review zeigte: SDM mit höherer Wissensgewinnung, niedrigerem Entscheidungskonflikt, mehr Zufriedenheit verbunden, aber in Praxis oft nur Informationsvermittlung, nicht echte Deliberation. Interviews: erhebliche Variation in Entscheidungsrollen; zentral waren Verständnis, Zuhörensgefühl, personalisierte Unterstützung. Barrieren: knappe Konsultationszeit, Workload, unzureichend Training, Health-Literacy-Herausforderungen.",
+  "aufgenommen": "2026-08-18"
+ }
+]
