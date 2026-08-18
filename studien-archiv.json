@@ -39,6 +39,32 @@
   "aufgenommen": "2026-08-18"
  },
  {
+  "pmid": "42530443",
+  "journal": "Health Expect",
+  "year": "2026",
+  "author": "Eric A et al.",
+  "pubdate": "Aug. 2026",
+  "added": "30.07.2026",
+  "transfer": "Deutschland, ähnliche Datengovernance-Strukturen und Gesundheitssystem",
+  "title": "Bewertung von Online-Deliberationsforen zur Patientenbeteiligung in der Datenschutzgovernance für Genomdaten",
+  "sum": "Evaluation von zwei Online-Deliberationsforen mit Krebspatienten und seltenen Erkrankungen zur Partizipation in der Governance eines Genomdaten-Archivs (GHGA).",
+  "result": "18 von 26 Teilnehmern (69%) zeigten signifikante Wissensgewinne (Wilcoxon p<0,05); 24/26 (96%) berichteten Zufriedenheit mit Deliberationen; 87,5% gaben positives Feedback. GHGA-Management verpflichtete sich zu 13 von 14 Empfehlungen; 7 Empfehlungen wurden implementiert. Online-Foren erreichten hohe Deliberationsqualität und beeinflussten Governance-Entscheidungen bedeutsam.",
+  "aufgenommen": "2026-08-18"
+ },
+ {
+  "pmid": "42521311",
+  "journal": "BMJ Open",
+  "year": "2026",
+  "author": "McCallion P et al.",
+  "pubdate": "28.07.2026",
+  "added": "28.07.2026",
+  "transfer": "Vereinigtes Königreich (NHS), ähnliches sekundärärztliches Versorgungssystem",
+  "title": "Shared-Decision-Making für Atemwegsräumungstechniken bei Bronchiektasen: Akzeptabilitätsstudie",
+  "sum": "Qualitative Studie mit Fokusgruppen und Interviews zu Akzeptanz eines SDM-Interventionsformats für Atemwegsräumungstechnik-Auswahl bei Patienten mit Bronchiektasen im UK.",
+  "result": "21 Physiotherapeuten und 21 Patienten; 12 Themen identifiziert (Adhärenz, kulturelle Herausforderungen, Bildung, Empowerment, Engagement, Flexibilität, Health Literacy, Informationsüberflutung, Verständnis, Ressourcen, Präferenzunterstützung, Zeit). SDM-Intervention erscheint für beide Stakeholder-Gruppen akzeptabel; neue Faktoren für Design und Implementierung identifiziert.",
+  "aufgenommen": "2026-08-18"
+ },
+ {
   "pmid": "42501755",
   "journal": "Eur J Public Health",
   "year": "2026",
@@ -75,6 +101,19 @@
   "title": "Digitale Gesundheitskompetenz durch Mobile Lernmodule: Effektivität bei Jugendlichen und Lehrenden",
   "sum": "RCT mit aktiver Kontrollgruppe evaluierte eine 10-minütige Mobile-Learning-Intervention zur Förderung digitaler Health Literacy (Grafikliteralität) bei Jugendlichen (14–17 Jahre) und Lehrenden in Deutschland.",
   "result": "Jugendliche (n = 251 Intervention, n = 249 Kontrolle): signifikanter Interaktionseffekt nur für objektives Wissen (η²p = 0,124; p < 0,001), nicht für subjektives Wissen, Evaluierung von Zuverlässigkeit oder Relevanzbestimmung. Lehrende (n = 301/302): signifikante Effekte für subjektives Wissen (η²p = 0,051; p < 0,001), objektives Wissen (η²p = 0,177; p < 0,001) und Zuverlässigkeitsbewertung (η²p = 0,010; p = 0,01). Beide Gruppen bewerteten visuelle und pädagogische Qualität positiv. Kurzinterventionen lehren Fakten, brauchen aber umfassendere Ansätze für tiefere Digital-Health-Literacy.",
+  "aufgenommen": "2026-08-18"
+ },
+ {
+  "pmid": "42464795",
+  "journal": "JMIR Med Educ",
+  "year": "2026",
+  "author": "Herschbach L et al.",
+  "pubdate": "16.07.2026",
+  "added": "17.07.2026",
+  "transfer": "Deutschland, direkt anwendbar für SDM-Training in medizinischer Ausbildung",
+  "title": "KI-simulierte Patienten für Shared-Decision-Making-Training: Machbarkeit in der Medizinerausbildung",
+  "sum": "Machbarkeitsstudie zur Erprobung von KI-gesteuerten Chat-basierten Simulationen für SDM-Training bei Medizinstudierenden und Ärzten, mit automatisiertem Feedback.",
+  "result": "58 Teilnehmer (22 Studierende, 34 Ärzte); Studierende zeigten höhere OPTION-12-Scores (M=28,67 vs. M=22,79; p<0,001). Übereinstimmung AI/Human-Bewertung hoch (ICC=0,86; p<0,001), wobei AI-Ratings systematisch höher waren. 95,2% bewerteten Authentizität und Nutzen positiv. CSE zeigte leichten Rückgang post-Intervention.",
   "aufgenommen": "2026-08-18"
  },
  {

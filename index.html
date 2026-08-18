@@ -995,71 +995,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "18. Aug. 2026, 16:09 Uhr";
+const SNAP_DATE = "18. Aug. 2026, 17:22 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
-  {
-    journal:"Sociol Health Illn", year:"2026", pmid:"42571051",
-    author:"Skovgaard AL et al.", pubdate:"Sept. 2026",
-    added:"09.08.2026",
-    title:"Shared Decision-Making in der Orthopädischen Schulter-Klinik: ethnografische Studie zu Entscheidungsarbeit unter Unsicherheit",
-    sum:"Ethnografische Feldarbeit in zwei dänischen Schulter-Kliniken untersuchte, wie SDM-Modelle mit alltäglichen Anliegen von Patienten und Klinikern unter Unsicherheit umgehen; pragmatistisches Rahmenwerk.",
-    result:"Entscheidungsfindung emergiert als interaktionale Arbeit in der 'subjektiven Stimmung', um Behandlungsvorschläge akzeptabel zu machen. Zweifel und Hoffnung sind inhärente Elemente, nicht zu vermeiden. SDM-Richtlinien berücksichtigen nicht vollständig die komplexen subjektiven Belange von Patienten und Klinikern, die mit hochgradig unsicheren Terrains navigieren. Pragmatistische Ideale (Anerkennung von Unsicherheit, interaktive Sinnbildung) sind fundamental.",
-    transfer:"Dänemark, europäisches System; Qualitative Befunde zu SDM-Implementierung unter Unsicherheit universal."
-  },
   {
     journal:"Health Expect", year:"2026", pmid:"42550057",
     author:"McCarron SA et al.", pubdate:"Aug. 2026",
     added:"04.08.2026",
-    title:"Antenatal Intervention für Impfakzeptanz entwickelt durch Einbeziehung von Eltern, Patienten und Öffentlichkeit",
-    sum:"Entwicklung einer pränatalen Intervention zur Verbesserung der Impfakzeptanz mittels systematischer Patientenbeteiligung (PPPIE) in Nordirland; Partnerschaft mit Maternity Service Liaison Committee, Sure Start Programmen und community outreach clinic.",
-    result:"Input von Eltern und Gemeinschaften formte Inhalt, Timing und Präsentation von Impfinformation. Beteiligung zeigte: Wichtigkeit klarer, Plain-Language-Information früh in Schwangerschaft; Bedarf nach Tailoring für unterschiedliche Bedürfnisse. Arbeit über etablierte Community-Netzwerke erreichte unterrepräsentierte Gruppen; 'you said, we did'-Ansatz demonstrierte Einfluss der Beteiligung.",
-    transfer:"Großbritannien (Nordirland), NHS-System; vergleichbarer Maternity Care und Community-Engagement."
+    title:"Patientenbeteiligung bei Impfstoffinformation in der Schwangerschaft: Co-Design in Nordirland",
+    sum:"Qualitative Studie zur PPPIE-gestützten Entwicklung einer Intervention für Antenatalimpfungen, unter Beteiligung von Eltern, Gemeinden und einschließlich benachteiligter Bevölkerungsgruppen.",
+    result:"Input von Eltern und Gemeinschaften informierte Inhalt, Timing und Präsentation von Impfstoffinformationen. Wichtig: klare, Plain-Language-Materialien früh in der Schwangerschaft, Anpassung an unterschiedliche Bedürfnisse. Arbeit mit etablierten Netzwerken erhöhte Erreichen unterrepräsentierter Gruppen; 'You said, we did'-Ansatz zeigte Transparenz.",
+    transfer:"Nordirland (Vereinigtes Königreich), ähnliches NHS-System und Gesundheitsversorgungsmodell"
+  },
+  {
+    journal:"Health Expect", year:"2026", pmid:"42530443",
+    author:"Eric A et al.", pubdate:"Aug. 2026",
+    added:"30.07.2026",
+    title:"Bewertung von Online-Deliberationsforen zur Patientenbeteiligung in der Datenschutzgovernance für Genomdaten",
+    sum:"Evaluation von zwei Online-Deliberationsforen mit Krebspatienten und seltenen Erkrankungen zur Partizipation in der Governance eines Genomdaten-Archivs (GHGA).",
+    result:"18 von 26 Teilnehmern (69%) zeigten signifikante Wissensgewinne (Wilcoxon p&lt;0,05); 24/26 (96%) berichteten Zufriedenheit mit Deliberationen; 87,5% gaben positives Feedback. GHGA-Management verpflichtete sich zu 13 von 14 Empfehlungen; 7 Empfehlungen wurden implementiert. Online-Foren erreichten hohe Deliberationsqualität und beeinflussten Governance-Entscheidungen bedeutsam.",
+    transfer:"Deutschland, ähnliche Datengovernance-Strukturen und Gesundheitssystem"
+  },
+  {
+    journal:"BMJ Open", year:"2026", pmid:"42521311",
+    author:"McCallion P et al.", pubdate:"28.07.2026",
+    added:"28.07.2026",
+    title:"Shared-Decision-Making für Atemwegsräumungstechniken bei Bronchiektasen: Akzeptabilitätsstudie",
+    sum:"Qualitative Studie mit Fokusgruppen und Interviews zu Akzeptanz eines SDM-Interventionsformats für Atemwegsräumungstechnik-Auswahl bei Patienten mit Bronchiektasen im UK.",
+    result:"21 Physiotherapeuten und 21 Patienten; 12 Themen identifiziert (Adhärenz, kulturelle Herausforderungen, Bildung, Empowerment, Engagement, Flexibilität, Health Literacy, Informationsüberflutung, Verständnis, Ressourcen, Präferenzunterstützung, Zeit). SDM-Intervention erscheint für beide Stakeholder-Gruppen akzeptabel; neue Faktoren für Design und Implementierung identifiziert.",
+    transfer:"Vereinigtes Königreich (NHS), ähnliches sekundärärztliches Versorgungssystem"
   },
   {
     journal:"Open Heart", year:"2026", pmid:"42493198",
     author:"Wennstig AC et al.", pubdate:"23.07.2026",
     added:"23.07.2026",
-    title:"Verständliche Informationen über stille Atherosklerose: Effekt auf Adhärenz zu Lebensstiländerungen",
-    sum:"Pragmatische RCT (VIPVIZA) mit 3.532 Teilnehmern aus der Västerbotten Intervention Programme in Schweden untersuchte Effekt von bildgestützten Informationen (Carotis-Ultraschall, Farbcodierung, Texte zur Atherosklerose) auf Adhärenz zu Lebensstiländerungen über 3 Jahre.",
-    result:"OR für gesünderes Lebensstiländerungsindex nach 3 Jahren: 1,20 (95% CI 1,01–1,42; p = 0,03) in der Interventionsgruppe vs. Kontrolle. Keine Interaktionen für Alter, Geschlecht oder Bildung. Pictorial-basierte Information über subklinische Atherosklerose trug zu anhaltenden gesunden Gewohnheiten bei, obwohl Effekt moderat war.",
-    transfer:"Schweden, ähnliches Versicherungssystem; Primärprävention in Bevölkerungsscreening übertragbar."
+    title:"Visuell-basierte Atheroskleros-Information verbessert Adhärenz an Lebensstil-Empfehlungen: VIPVIZA RCT",
+    sum:"Randomisierte kontrollierte Studie in Schweden, die Effekt von bildgestützter Information über subklinische Atherosklerose auf 3-Jahres-Adhärenz an gesundes Verhalten prüfte.",
+    result:"OR 1,20 (95% KI 1,01–1,42; p=0,03) für gesündere Lebensstiländerungen nach 3 Jahren (Intervention vs. Kontrolle). Pictorial-basierte Information mit Motivationsdialog führte zu nachhaltig verbesserten Lebensstilindikatoren (Aktivität, Rauchen, Ernährung, Alkohol). Keine Interaktionen nach Alter, Geschlecht oder Bildung.",
+    transfer:"Schweden, ähnliche primärärztliche Präventionsinfrastruktur und Gesundheitssystem"
   },
   {
-    journal:"J Med Internet Res", year:"2026", pmid:"42480063",
-    author:"Schröder R et al.", pubdate:"21.07.2026",
-    added:"21.07.2026",
-    title:"Digitale Gesundheitskompetenz durch Mobile Lernmodule: Effektivität bei Jugendlichen und Lehrenden",
-    sum:"RCT mit aktiver Kontrollgruppe evaluierte eine 10-minütige Mobile-Learning-Intervention zur Förderung digitaler Health Literacy (Grafikliteralität) bei Jugendlichen (14–17 Jahre) und Lehrenden in Deutschland.",
-    result:"Jugendliche (n = 251 Intervention, n = 249 Kontrolle): signifikanter Interaktionseffekt nur für objektives Wissen (η²p = 0,124; p &lt; 0,001), nicht für subjektives Wissen, Evaluierung von Zuverlässigkeit oder Relevanzbestimmung. Lehrende (n = 301/302): signifikante Effekte für subjektives Wissen (η²p = 0,051; p &lt; 0,001), objektives Wissen (η²p = 0,177; p &lt; 0,001) und Zuverlässigkeitsbewertung (η²p = 0,010; p = 0,01). Beide Gruppen bewerteten visuelle und pädagogische Qualität positiv. Kurzinterventionen lehren Fakten, brauchen aber umfassendere Ansätze für tiefere Digital-Health-Literacy.",
-    transfer:"Deutschland, schulisches System; kurzmodular und digital flexible Umsetzung übertragbar."
-  },
-  {
-    journal:"Patient Educ Couns", year:"2026", pmid:"42456271",
-    author:"Michiels L et al.", pubdate:"09.07.2026",
-    added:"15.07.2026",
-    title:"Shared Decision-Making für Lungenkrebs-Screening: Verständnis und Beteiligung vor Programmstart",
-    sum:"Gemischte Methoden (Scoping Review von 35 Studien plus qualitative Interviews mit 22 Gesundheitsfachpersonen und 13 Screening-Kandidaten) untersuchten SDM-Implementierung für Lungenkrebs-Screening in Belgien.",
-    result:"Scoping Review zeigte: SDM mit höherer Wissensgewinnung, niedrigerem Entscheidungskonflikt, mehr Zufriedenheit verbunden, aber in Praxis oft nur Informationsvermittlung, nicht echte Deliberation. Interviews: erhebliche Variation in Entscheidungsrollen; zentral waren Verständnis, Zuhörensgefühl, personalisierte Unterstützung. Barrieren: knappe Konsultationszeit, Workload, unzureichend Training, Health-Literacy-Herausforderungen.",
-    transfer:"Belgien (Flandern), vergleichbares Versicherungssystem; Gatekeeping und Ressourcendruck europäisch ähnlich."
+    journal:"JMIR Med Educ", year:"2026", pmid:"42464795",
+    author:"Herschbach L et al.", pubdate:"16.07.2026",
+    added:"17.07.2026",
+    title:"KI-simulierte Patienten für Shared-Decision-Making-Training: Machbarkeit in der Medizinerausbildung",
+    sum:"Machbarkeitsstudie zur Erprobung von KI-gesteuerten Chat-basierten Simulationen für SDM-Training bei Medizinstudierenden und Ärzten, mit automatisiertem Feedback.",
+    result:"58 Teilnehmer (22 Studierende, 34 Ärzte); Studierende zeigten höhere OPTION-12-Scores (M=28,67 vs. M=22,79; p&lt;0,001). Übereinstimmung AI/Human-Bewertung hoch (ICC=0,86; p&lt;0,001), wobei AI-Ratings systematisch höher waren. 95,2% bewerteten Authentizität und Nutzen positiv. CSE zeigte leichten Rückgang post-Intervention.",
+    transfer:"Deutschland, direkt anwendbar für SDM-Training in medizinischer Ausbildung"
   },
   {
     journal:"Health Promot Int", year:"2026", pmid:"42555370",
     author:"Kalteis M et al.", pubdate:"01.07.2026",
     added:"05.08.2026",
-    title:"Fachkompetenz zum Hinterfragen von Gesundheitsinformation: Interventionen zur Förderung von Critical Health Literacy",
-    sum:"Systematische Übersicht identifizierte 81 Publikationen mit 53 Interventionen zur Förderung kritischer Gesundheitskompetenz (CHL); Schwerpunkt lag auf Appraisal-Fähigkeiten für informierte Entscheidungen in Bildungseinrichtungen.",
-    result:"53 Interventionen in 19 Ländern, überwiegend in Schulen und Universitäten; Publikationen nahmen seit 2016 zu, Peak 2021–2025; Barrieren waren Zeitmangel, Ressourcenengpässe und hohe Anforderungen an Lehrende; Facilitators waren Leadershipsupport, Schulung und hochwertige Lernmaterialien.",
-    transfer:"Deutschland und europäische Bildungssysteme haben vergleichbare Strukturen; Fokus auf Schulen übertragbar."
-  },
-  {
-    journal:"Eur J Public Health", year:"2026", pmid:"42501755",
-    author:"Romeo-Cervera P et al.", pubdate:"10.06.2026",
-    added:"25.07.2026",
-    title:"Krebsprävention verstehen: Ungleichheiten in Prävention-Kompetenz und Awareness in der EU",
-    sum:"Cross-sectional Online-Befragung in 23 EU-Ländern (n = 2.312; Februar–März 2024) zur Krebsprävention-Gesundheitskompetenz (CPL), Awareness zum European Code Against Cancer (ECAC) und Assoziation mit sozialen Determinanten und digitaler Health Literacy.",
-    result:"81,4% mit ausreichender CPL, aber nur 61,1% kannten den ECAC. Männer weniger wahrscheinlich ausreichend CPL als Frauen (OR 0,66; [0,49–0,89]). Unter-Universitäts-Bildung: niedrigere Odds für CPL (OR 0,50; [0,39–0,64]). Digitale Health Literacy stärkster Prädiktor: höchste Quartile 3,11-fach höhere Chancen für CPL als niedrigste (OR 3,11; [2,12–4,67]). Persönliche/familiale Krebsgeschichte erhöhte Chancen (OR 1,47; [1,10–1,94]). Persistierende Ungleichheiten nach Bildung, Geschlecht, Alter.",
-    transfer:"Multiple europäische Länder, vergleichbare Gesundheitssysteme und Prävention; ECAC auf deutschem Markt relevant."
+    title:"Interventionen zur Förderung von Critical Health Literacy: Was funktioniert und wo sind die Lücken",
+    sum:"Systematische Übersicht von 53 Interventionen zur Stärkung von Critical Health Literacy identifizierte hauptsächlich Schulungs- und Universitätsprogramme, die auf Informationsbewertung und individuelles Handeln fokussieren.",
+    result:"81 Publikationen eingeschlossen (2016–2025), 53 distinct Interventionen in 19 Ländern. Die meisten adressierten Bewertungsfähigkeiten (Individual-Ebene), während breiter Dimensionen wie Verständnis sozialer Gesundheitsdeterminanten und kollektive Maßnahmen selten behandelt wurden. Barrieren: begrenzte Zeit/Ressourcen, technische Infrastruktur, hohe Anforderungen an Lehrende. Facilitators: Führungsunterstützung, Coaching, hochwertige Lernmaterialien.",
+    transfer:"Deutschland und deutschsprachiger Raum, vergleichbares Bildungssystem und Gesundheitswesen"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
