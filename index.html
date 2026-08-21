@@ -1041,62 +1041,71 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "20. Aug. 2026, 07:18 Uhr";
+const SNAP_DATE = "21. Aug. 2026, 07:20 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
+  {
+    journal:"BMC Public Health", year:"2026", pmid:"42618908",
+    author:"Domanska OM et al.", pubdate:"19.08.2026",
+    added:"20.08.2026",
+    title:"Ungleiche Gesundheitskompetenz für Bewegung: Soziale Gradienten in der deutschen Erwachsenenbevölkerung",
+    sum:"Deutsche Querschnittsstudie (n = 3.986) mittels standardisierter Telefonbefragung 2023, die physische Aktivitäts-bezogene Health Literacy (PAHCO) und ihre Assoziationen mit sozialen Ungleichheiten untersuchte.",
+    result:"38,2% zeigte niedrige/eher niedrige PAHCO-Werte. Erhöhte Odds für geringe PAHCO bei ≥65 Jahren (OR 3,77; 95% KI 2,28–6,22), niedriger vs. hoher Bildung (OR 1,96; 95% KI 1,37–2,82) und niedrigstem vs. höchstem Einkommensquartil (OR 1,95; 95% KI 1,23–3,10). Befunde über alle drei Subkompetenzen konsistent.",
+    transfer:"Deutschland, RKI-Daten, nationale Representative-Stichprobe."
+  },
   {
     journal:"Gesundheitswesen", year:"2026", pmid:"42617637",
     author:"Sponsel S et al.", pubdate:"19.08.2026",
     added:"19.08.2026",
-    title:"Professionelle Gesundheitskompetenz von Hebammen: Identifizierung von Kompetenzlücken in digitalen und evidenzbasierten Fähigkeiten",
-    sum:"Querschnittstudie zur professionellen Gesundheitskompetenz von 668 bayerischen Hebammen mit standardisierter Online-Befragung mittels PROF-HL-Q-Instrument.",
-    result:"Hebammen erreichten in vier Kompetenzdomänen Mittelwerte zwischen 48,6 und 78,0 von 100 Punkten; patientenzentrierte Kommunikation zeigte höchste Werte (78,0), digitale Gesundheitskompetenz niedrigste (48,6). Deutliche Förderbedarfe in Digitalisierung, Evidenzbasierung und fortgeschrittener Kommunikation identifiziert.",
-    transfer:"Deutschland, Klinikdaten zu Hebammenprofession im DACH-System"
+    title:"Professionelle Gesundheitskompetenz von Hebammen: Bereiche mit Förderungsbedarf in Bayern",
+    sum:"Standardisierte Online-Befragung von 668 bayerischen Hebammen (November 2023 – Mai 2024) zur professionellen Health Literacy anhand des PROF-HL-Q-Instruments mit vier Kompetenzbereichen.",
+    result:"Mittelwerte zwischen 48,6 und 78,0 von 100 Punkten. Patientenzentrierte Kommunikation am höchsten (78,0), professionelle digitale Gesundheitskompetenz am niedrigsten (48,6). Kompetenzbereiche Digitalisierung, Evidenzbasierung und erweiterte Kommunikation zeigen Entwicklungsbedarf.",
+    transfer:"Deutschland, Hebammenwesen, curriculare Relevanz für Aus- und Weiterbildung."
   },
   {
     journal:"BMJ Open", year:"2026", pmid:"42613120",
     author:"Barrington H et al.", pubdate:"18.08.2026",
     added:"18.08.2026",
-    title:"Verstehen Patienten Einladungen zu Outcome-Set-Studien? Qualitative Befragung zu Klarheit, Vertrauen und wahrgenommener Relevanz",
-    sum:"Qualitative Studie mit 31 Patienten und Bürgern aus Nordwestengland zu deren Verständnis und Akzeptanz von Einladungen zu Core Outcome Set-Studien.",
-    result:"Zu viel Information verursachte Verwirrung; Cyberkriminalität-Bedenken und fehlend Vertrauen waren Hauptbarrieren. Teilnehmer wünschten transparente Mitteilungen zur Bedeutsamkeit ihrer Beiträge und emotionale Verbindung zu anderen Betroffenen – nicht Furchtappelle.",
-    transfer:"UK-System, relevant für strukturierte Patientenbeteiligung in europäischen Forschungsvorhaben"
+    title:"Verständnis von Studieneinladungen: Welche Informationen helfen Patienten, sich an Forschung zu beteiligen?",
+    sum:"Qualitative Studie mit 31 Patienten und Bürgern in Nordwest-England zu Verständlichkeit und Akzeptanz von Einladungen zu Core-Outcome-Set-Studien.",
+    result:"Vier Themenbereiche: Verständnis, Engagement, Sicherheit, Zugänglichkeit. Zu viele Informationen verwirren. Vertrauensfrage zentral. Botschaften zu sinnvollem Studienzweck steigern Beteiligungsmotivation. Cybersicherheitsbedenken reduzieren Bereitschaft. Empfindung von Wertschätzung und Zugehörigkeit positiv assoziiert.",
+    transfer:"UK-System vergleichbar mit Deutschland bei Patient Involvement."
   },
   {
-    journal:"BMJ Open", year:"2026", pmid:"42521311",
-    author:"McCallion P et al.", pubdate:"28.07.2026",
-    added:"28.07.2026",
-    title:"Shared Decision-Making für Atemwegsclearance bei Bronchiektasen: Akzeptabilität aus Sicht von Patienten und Physiotherapeuten",
-    sum:"Qualitative Fokusgruppen und Interviews mit 21 Physiotherapeuten und 21 Patienten mit Bronchiektasen zur Akzeptabilität eines SDM-Interventionsangebots.",
-    result:"12 Themen über alle sieben Domänen des Akzeptabilitäts-Frameworks identifiziert (u.a. Adhärenz, Edukation, Empowerment, Zeitressourcen, Gesundheitskompetenz). SDM-Intervention zur Unterstützung von Patientenwahlfreiheit für Atemwegtechniken erscheint akzeptabel für beide Stakeholder-Gruppen; mehrere implementierungsrelevante Einflussfaktoren eruiert.",
-    transfer:"UK-System, SDM-Konzept in europäischen Gesundheitssystemen mit ähnlicher Physiotherapie-Struktur anwendbar"
+    journal:"BMJ Open", year:"2026", pmid:"42613107",
+    author:"Barrington H et al.", pubdate:"18.08.2026",
+    added:"18.08.2026",
+    title:"Gute Forschungseinladungen: Konsensus-Empfehlungen für verbesserte Patientenbeteiligung an Studien",
+    sum:"Online-Konsensusmeeting mit 13 Akteuren (Patientenpartner, Studienentwickler, Ethikkomitee-Vertreter, Experten) zur Erstellung von 22 Handlungsempfehlungen für verständliche COS-Studieneinladungen, basierend auf vorangegangener qualitativer Forschung.",
+    result:"Von 35 initialen Empfehlungen wurden 22 finalisiert. Fokus: Nutzertest von Einladungen, Zielgruppenreach, potenzielle Teilnehmende ansprechen, Interesse wecken, Einfachheit und Verständlichkeit, Informationsmenge und -darstellung, Zugänglichkeit. Gesamtdiskussion betont Wichtigkeit der Zugänglichkeit aller Patientenmaterialien, nicht nur Einladungen.",
+    transfer:"UK – Patient Involvement-Standards international anwendbar, Sprachspezifik zu beachten."
+  },
+  {
+    journal:"J Eval Clin Pract", year:"2026", pmid:"42623490",
+    author:"Cederborg C et al.", pubdate:"Aug. 2026",
+    added:"20.08.2026",
+    title:"Verständnis und Beteiligung in psychiatrischer Versorgung: Bedingungen für Shared Decision-Making aus Sicht der Fachpersonen",
+    sum:"Qualitative Fokusgruppenstudie mit 28 Psychiatriefachpersonen in Schweden zu Voraussetzungen, Hürden und Strategien für gelungene Patientenbeteiligung in Behandlungsgesprächen.",
+    result:"Vertrauensvolle Beziehung, Transparenz und patientengerechte Kommunikation fördern Mitsprache. Zeit als übergreifender limitierender Faktor. Organisatorische Unterstützung, Schulung und strukturierte Entscheidungsprozesse nötig; Motivational Interviewing und Teamwork als Enabler benannt.",
+    transfer:"Skandinavien, freier Marktzugang – systemische Hürden (Zeit, Ressourcen) identisch."
   },
   {
     journal:"Open Heart", year:"2026", pmid:"42493198",
     author:"Wennstig AC et al.", pubdate:"23.07.2026",
     added:"23.07.2026",
-    title:"Visuell gestützte Atheroskerose-Information verbessert Adhärenz zu Lebensstil-Empfehlungen: VIPVIZA RCT",
-    sum:"Pragmatische RCT mit 3532 VIP-Teilnehmern (40, 50 und 60 Jahre) zur Wirkung bildgestützter Information über subklinische Atherosklerose auf Lebenssti-Adhärenz über 3 Jahre.",
-    result:"Intervention mit farbkodierten Bildern zur Halsschlag-Intima-Media-Dicke und motivationalem Dialog: OR 1,20 (95% KI 1,01–1,42; p=0,03) für gesünderen Lifestyle-Index nach 3 Jahren vs. Kontrolle. Keine Wechselwirkungen mit Alter, Geschlecht oder Bildung. Befunde deuten auf Nutzen bildgestützter Information bei Prävention.",
-    transfer:"Schweden (VIP-Programm), hochgradig übertragbar auf deutsche Präventionsprogramme mit ähnlicher Populationsbasis"
+    title:"Bildgestützte Atherosklerose-Information verbessert Adherenz zu Lebensstiländerungen in der klinischen Praxis",
+    sum:"Randomisierte Studie mit 3.532 Schwedinnen und Schweden, die Auswirkung von visueller Patienteninformation über subklinische Arteriosklerose auf die Einhaltung von Lebensstiländerungen nach 3 Jahren untersuchte.",
+    result:"Interventionsgruppe (grafisch-farbcodierte Karotis-Befunde + schriftliche Information + motivierendes Gespräch) erzielte OR 1,20 (95% KI 1,01–1,42; p = 0,03) für gesünderen Lifestyle-Index gegenüber Kontrolle. Evidenz für Bild-Text-Kombinationen bei Verhaltenswandel.",
+    transfer:"Schweden, strukturiertes Präventionsprogramm mit Shared Decision Making."
   },
   {
     journal:"Health Promot Int", year:"2026", pmid:"42612235",
     author:"Grady CL et al.", pubdate:"01.07.2026",
     added:"18.08.2026",
-    title:"Machbarkeit von LifeLab Dublin: Gesundheitskompetenz-Schulung für benachteiligte Schüler in Co-Design",
-    sum:"Mixed-Methods-Feasibility-Studie mit 356 Schülern und 15 Lehrern aus vier Dublin-Schulen zur Machbarkeit und Akzeptanz eines co-gestalteten Gesundheitskompetenz-Programms.",
-    result:"Rekrutierung auf Schulebene niedrig (6%), aber auf individueller Ebene stark (91% Teilnahme). Dropout postintervention 13,8%, Follow-up 16,8%. Moderate Gesundheitskompetenz und gutes Wohlbefinden baseline; mittlere Anstiege in Gesundheitskompetenz, Wohlbefinden und Lebensqualität vom Baseline zu Follow-up dokumentiert. Studie unterstützt Machbarkeit und Akzeptabilität für weitere definitive Studien.",
-    transfer:"Irland, vergleichbare Schulstrukturen in DACH und Europa"
-  },
-  {
-    journal:"Health Promot Int", year:"2026", pmid:"42555370",
-    author:"Kalteis M et al.", pubdate:"01.07.2026",
-    added:"05.08.2026",
-    title:"Interventionen zur Critical Health Literacy: systematisches Mapping von Konzept, Umsetzung und Wirkungsmessung",
-    sum:"Scoping Review von 81 Publikationen über 53 distinct Interventionen zur Critical Health Literacy (2016–2025) in 19 Ländern.",
-    result:"Interventionen zumeist in Bildungseinrichtungen, zielend auf Schüler und Studenten. Mehrheit fokussiert auf Kritik-Fähigkeiten und individuelle Aktion; breitere Dimensionen (soziale Determinanten, kollektive Aktion) selten adressiert. Barrieren: begrenzte Zeit, fehlende Ressourcen, Infrastruktur. Facilitator: Leitungsunterstützung, Training, qualitätssichere Materialien. Künftige Forschung braucht Effektivitäts- und Follow-up-Studien mit kontextsensitiver Anpassung.",
-    transfer:"Internationales Review, Deutschland als ein Kontext; Empfehlungen direkt auf lokale Schulen übertragbar"
+    title:"Machbarkeit einer kodesignten Schulintervention zur Gesundheitskompetenz in benachteiligten Schulen in Dublin",
+    sum:"Mixed-Methods-Machbarkeitsstudie von LifeLab Dublin mit 356 Schülern und 15 Lehrern an vier Dublin-Schulen in sozioökonomisch benachteiligten Gegenden.",
+    result:"Schulrekrutierung niedrig (6%), aber Teilnahme bei interessierten Schülern hoch (91%), Dropout 13,8% (postintervention) und 16,8% (Follow-up). Moderate Health Literacy und gutes Wohlbefinden am Anfang. Mittlere Zunahmen von Baseline zu Follow-up bei HL, Wohlbefinden und Health-related Quality of Life. Machbarkeit und Akzeptabilität evidenzgestützt.",
+    transfer:"Irland, UK – Schulansätze auf deutsche Gegebenheiten adaptierbar."
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
