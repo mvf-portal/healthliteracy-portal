@@ -1,5 +1,31 @@
 [
  {
+  "pmid": "42631525",
+  "journal": "Psychooncology",
+  "year": "2026",
+  "author": "Weiler-Wichtl LJ et al.",
+  "pubdate": "Aug. 2026",
+  "added": "22.08.2026",
+  "transfer": "Deutschland und Österreich – multizentrische Studie mit deutschsprachigen Patienten und Versorgungsstrukturen",
+  "title": "Psychoeducational Schulungsprogramm verbessert Gesundheitskompetenz und emotionales Wohlbefinden bei Kindern mit Krebs",
+  "sum": "Pilotprüfung eines Psychoedukationsprogramms (MyLogbook) zur Verbesserung der Gesundheitskompetenz und emotionalen Anpassung bei 240 pädiatrischen Onkologiepatienten in Deutschland, Österreich, Schweiz und Italien.",
+  "result": "Die subjektive, modulspezifische Gesundheitskompetenz stieg signifikant von 2,97 (SD=1,45) nach Sitzung 1 auf 3,97 (SD=1,13) nach Sitzung 2 (Wilcoxon V=1597,5, p<0,001). Negative Emotionen nahmen ab (B=-0,342, p<0,001), positive Emotionen nahmen zu (β=0,051, p=0,011). Das Programm übersetzte erfolgreich Leitlinien zur psychosozialen Versorgung in die klinische Praxis.",
+  "aufgenommen": "2026-08-23"
+ },
+ {
+  "pmid": "42618915",
+  "journal": "BMC Health Serv Res",
+  "year": "2026",
+  "author": "Schulz C et al.",
+  "pubdate": "19.08.2026",
+  "added": "20.08.2026",
+  "transfer": "Deutsche Studie mit realen Patientenfragen aus Gesundheitsforum – direkt auf deutsche Kontexte übertragbar",
+  "title": "Verständlichkeit und Empathie von KI-Gesundheitsinformation: Nutzervergleich mit menschlichen Antworten",
+  "sum": "Online-Befragung in Deutschland mit 224 Teilnehmenden, die identische Gesundheitsfragen mit Antworten von ChatGPT-4 und einem Physiotherapeuten bewerteten.",
+  "result": "Die KI-generierte Antwort wurde bei Verständlichkeit und Empathie signifikant höher bewertet als die menschliche (alle p<0,001). Wahrnehmung diskriminierender Inhalte war selten und unterschied sich nicht zwischen den Antworten. Fachliche Bewertung bevorzugte die KI-Antwort hinsichtlich Genauigkeit, aber Längen- und Strukturunterschiede erfordern vorsichtige Interpretation.",
+  "aufgenommen": "2026-08-23"
+ },
+ {
   "pmid": "42623490",
   "journal": "J Eval Clin Pract",
   "year": "2026",

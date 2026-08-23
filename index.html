@@ -1041,62 +1041,71 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "22. Aug. 2026, 07:04 Uhr";
+const SNAP_DATE = "23. Aug. 2026, 07:16 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
+  {
+    journal:"BMC Health Serv Res", year:"2026", pmid:"42618915",
+    author:"Schulz C et al.", pubdate:"19.08.2026",
+    added:"20.08.2026",
+    title:"Verständlichkeit und Empathie von KI-Gesundheitsinformation: Nutzervergleich mit menschlichen Antworten",
+    sum:"Online-Befragung in Deutschland mit 224 Teilnehmenden, die identische Gesundheitsfragen mit Antworten von ChatGPT-4 und einem Physiotherapeuten bewerteten.",
+    result:"Die KI-generierte Antwort wurde bei Verständlichkeit und Empathie signifikant höher bewertet als die menschliche (alle p&lt;0,001). Wahrnehmung diskriminierender Inhalte war selten und unterschied sich nicht zwischen den Antworten. Fachliche Bewertung bevorzugte die KI-Antwort hinsichtlich Genauigkeit, aber Längen- und Strukturunterschiede erfordern vorsichtige Interpretation.",
+    transfer:"Deutsche Studie mit realen Patientenfragen aus Gesundheitsforum – direkt auf deutsche Kontexte übertragbar"
+  },
   {
     journal:"BMC Public Health", year:"2026", pmid:"42618908",
     author:"Domanska OM et al.", pubdate:"19.08.2026",
     added:"20.08.2026",
-    title:"Gesundheitskompetenz bei körperlicher Aktivität – wer in Deutschland nicht erreicht wird und warum",
-    sum:"Bevölkerungsbefragung von 3.986 deutschsprachigen Erwachsenen zur Verteilung von Physical Activity-related Health Competence (PAHCO) und Assoziation mit sozialen Ungleichheiten.",
-    result:"38,2 % der Bevölkerung zeigten niedrige/eher niedrige PAHCO-Werte. Höhere Chancen für niedrige PAHCO: Alter 65+ (OR 3,77), niedrige Bildung (OR 1,96), niedriges Einkommen (OR 1,95), schlechte Gesundheit, geringe soziale Unterstützung. Besonderheiten nach Geschlecht und Alter nur bei Bewegungskompetenz.",
-    transfer:"Deutsche RKI-Daten, repräsentative Stichprobe, direkt anwendbar für Zielgruppen-fokussierte Bewegungsförderung."
+    title:"Bewegungsbezogene Gesundheitskompetenz zeigt große soziale Ungleichheiten in der Bevölkerung",
+    sum:"Bevölkerungsbasierte Querschnittsstudie mit 3.986 erwachsenen Deutschen (telefonische Interviews Jan–Mai 2023) zur Verteilung von Physical Activity-related Health Competence (PAHCO) und Assoziation mit sozialen Ungleichheiten.",
+    result:"38,2% der Bevölkerung zeigte niedrige/eher niedrige PAHCO-Werte. Höhere Wahrscheinlichkeiten für niedrige PAHCO bei Personen ≥65 Jahren vs. 18–29-Jährige (OR=3,77, 95%-KI: 2,28–6,22), niedriger vs. hoher Bildung (OR=1,96, 95%-KI: 1,37–2,82) und niedrigstem vs. höchstem Einkommen (OR=1,95, 95%-KI: 1,23–3,10). Schlechte Gesundheit und niedriger sozialer Rückhalt waren weitere Prädiktoren.",
+    transfer:"Deutsche nationale Telefonbefragung mit direkter Bevölkerungsrepräsentativität und Policy-Relevanz"
   },
   {
     journal:"Gesundheitswesen", year:"2026", pmid:"42617637",
     author:"Sponsel S et al.", pubdate:"19.08.2026",
     added:"19.08.2026",
-    title:"Professionelle Gesundheitskompetenz bei Hebammen – Defizite in Digitalisierung und Evidenzbasierung",
-    sum:"Querschnittsbefragung von 668 bayerischen Hebammen zur professionellen Gesundheitskompetenz mit 34-Item-Instrument (PROF-HL-Q) über vier Kompetenzbereiche.",
-    result:"Durchschnittliche Punktwerte zwischen 48,6 und 78,0 von 100. Patientzentrierte Kommunikation: Mittelwert 78,0 (stärkstes Feld); professionelle digitale Gesundheitskompetenz: 48,6 (schwächstes Feld). Bedarf für Curriculumreformen in Ausbildung und Fortbildung, besonders Digitalisierung, Evidenzbasierung und Kommunikation.",
-    transfer:"Deutschland, bayerische Klinik- und Praxisdaten, direkt relevant für Hebammen-Ausbildung und Weiterbildung."
+    title:"Professionelle Gesundheitskompetenz von Hebammen in Bayern: Kompetenzbereiche mit Förderungsbedarf",
+    sum:"Standardisierte Online-Befragung von 668 bayerischen Hebammen (Nov 2023–Mai 2024) zur professionellen Gesundheitskompetenz (PROF-HL-Q, 34 Items, vier Kompetenzbereiche).",
+    result:"Durchschnittliche Punktwerte in Kompetenzbereichen rangierten von 48,6 bis 78,0 (Skala 0–100). Patientenzentrierte Kommunikation erzielte höchste Scores; digitale Gesundheitskompetenz die niedrigsten. Bedeutsame Kompetenzlücken in Digitalisierung, Evidenzbasierung und Kommunikation wurden identifiziert, die Anpassungen in Ausbildung und Fortbildung erfordern.",
+    transfer:"Deutschland (Bayern) – direkte Relevanz für deutsche Hebammenausbildung und Hebammenfunktion in Perinatalperiode"
   },
   {
     journal:"BMJ Open", year:"2026", pmid:"42613120",
     author:"Barrington H et al.", pubdate:"18.08.2026",
     added:"18.08.2026",
-    title:"Verstehen Patienten und Öffentlichkeit Einladungen zu Studien über Behandlungsergebnisse? Eine qualitative UK-Studie",
-    sum:"Qualitative Studie mit 31 Patienten und Bürgern zum Verständnis von Studieneinladungen für Core Outcome Sets (COS) und deren Verständlichkeit.",
-    result:"Themen: Verständnis, Engagement, Sicherheit, Zugänglichkeit. Teilnehmer kritisierten zu viel Information (Verwirrung), Cybercrime-Bedenken (Klick-Vermeidung), forderten Vertrauenssignale und Sinn der Partizipation, wünschten emotionale Verbindung und bessere Zugänglichkeit. Konkrete Empfehlungen zur Verbesserung von Einladungstexten wurden abgeleitet.",
-    transfer:"UK-Kontext mit NHS-Strukturen, teilweise übertragbar auf deutsche akademische und klinische Forschung mit angepasster Kommunikation."
+    title:"Verständlichkeit und Beteiligung nach Lektüre von Core Outcome Set Studieneinladungen: qualitative Befragung von Patienten und Bürgern",
+    sum:"Qualitative Fokusgruppen und Interviews mit 31 Patienten und Bürgern in Nordwestengland zur Bewertung von COS-Studieneinladungen als erste Information für potenzielle Teilnehmer.",
+    result:"Teilnehmende berichteten Verwirrung durch übermäßige Informationen, Sicherheitsbedenken bei Links/Anhängen und Vertrauensanforderung gegenüber Absendenden. Sinnhaftigkeit und Verbundenheit mit anderen waren motivierend; Barrierefreiheit wurde als wichtig hervorgehoben. Befunde zeigen Möglichkeiten zur Verbesserung der Einladungsgestaltung durch Reduzierung von Informationsmenge, Vertrauensaufbau und Zugänglichkeit.",
+    transfer:"Großbritannien – ähnliches Versicherungssystem und Forschungsethikverständnis, Patientenbeteiligungskultur"
   },
   {
-    journal:"BMJ Open", year:"2026", pmid:"42613107",
-    author:"Barrington H et al.", pubdate:"18.08.2026",
-    added:"18.08.2026",
-    title:"Gute Studieneinladungen für Patienten – Konsens-Richtline zu Verständlichkeit und Engagement",
-    sum:"Konsens-Treffen mit 13 Experten, Patienten und Stakeholdern zur Entwicklung von 22 Empfehlungen für verständliche und ansprechende COS-Studieneinladungen.",
-    result:"Aus 35 Kandidaten-Empfehlungen wurde Konsens zu 22 finalen Empfehlungen erzielt. Fokus: Gestaltung und Nutzertestung, Zielgruppenerreichung, Engagement, angemessene Informationsmenge, Verständlichkeit und Zugänglichkeit. Wichtigkeit der Zugänglichkeit aller Patienten-Materialien unterstrichen.",
-    transfer:"UK-Kontext, aber Empfehlungen zur Plain-Language-Kommunikation sprachunabhängig und auf deutsche Forschungskommunikation übertragbar."
+    journal:"Psychooncology", year:"2026", pmid:"42631525",
+    author:"Weiler-Wichtl LJ et al.", pubdate:"Aug. 2026",
+    added:"22.08.2026",
+    title:"Psychoeducational Schulungsprogramm verbessert Gesundheitskompetenz und emotionales Wohlbefinden bei Kindern mit Krebs",
+    sum:"Pilotprüfung eines Psychoedukationsprogramms (MyLogbook) zur Verbesserung der Gesundheitskompetenz und emotionalen Anpassung bei 240 pädiatrischen Onkologiepatienten in Deutschland, Österreich, Schweiz und Italien.",
+    result:"Die subjektive, modulspezifische Gesundheitskompetenz stieg signifikant von 2,97 (SD=1,45) nach Sitzung 1 auf 3,97 (SD=1,13) nach Sitzung 2 (Wilcoxon V=1597,5, p&lt;0,001). Negative Emotionen nahmen ab (B=-0,342, p&lt;0,001), positive Emotionen nahmen zu (β=0,051, p=0,011). Das Programm übersetzte erfolgreich Leitlinien zur psychosozialen Versorgung in die klinische Praxis.",
+    transfer:"Deutschland und Österreich – multizentrische Studie mit deutschsprachigen Patienten und Versorgungsstrukturen"
   },
   {
     journal:"J Eval Clin Pract", year:"2026", pmid:"42623490",
     author:"Cederborg C et al.", pubdate:"Aug. 2026",
     added:"20.08.2026",
-    title:"Patientenbeteiligung in der psychiatrischen Versorgung: Welche Organisationsbedingungen ermöglichen Shared Decision-Making?",
-    sum:"Qualitative Studie mit 28 Fachkräften in schwedischen Psychiatriekliniken zu Voraussetzungen, Barrieren und Strategien für Shared Decision-Making bei Patientenbeteiligung.",
-    result:"Vier Hauptkategorien identifiziert: Beziehung, Patientenressourcen, Organisation und Gesprächsstrategien. Zeit als übergeordneter Faktor. Maßnahmen wie Motivational Interviewing, Dokumentation und multidisziplinäre Zusammenarbeit wirkten förderlich; Zeitmangel und Ressourcenlimitationen waren zentrale Barrieren. Organisationale Unterstützung und Systemintegration der Patientenbeteiligung erforderlich.",
-    transfer:"Skandinavien, vergleichbarer Versorgungsauftrag, aber ohne Gatekeeping-System wie Deutschland."
+    title:"Shared Decision-Making in psychiatrischer Versorgung: Perspektiven von Fachpersonen auf Voraussetzungen und Barrieren",
+    sum:"Qualitative Fokusgruppenstudie mit 28 Fachpersonen in der schwedischen psychiatrischen Versorgung, um Bedingungen für wirksame Patientenbeteiligung in SDM zu untersuchen.",
+    result:"Vier Hauptkategorien wurden identifiziert: Vertrauensbeziehung, Patientenressourcen, Organisationsstruktur und Strategien in Patientengesprächen. Zeit wurde als übergreifender Einflussfaktor benannt, der alle Kategorien beeinflusst. Organisatorische Barrieren wie Zeitmangel und Ressourcenlimitationen behinderten Patientenbeteiligung; Strategien wie motivierende Gesprächsführung und Multidisziplinarität fördern sie.",
+    transfer:"Skandinavien – Gatekeeping-System unterscheidet sich, aber Befunde zu Vertrauensaufbau und Ressourcen sind übertragbar"
   },
   {
     journal:"Health Promot Int", year:"2026", pmid:"42612235",
     author:"Grady CL et al.", pubdate:"01.07.2026",
     added:"18.08.2026",
-    title:"Co-designed Schulungsintervention für Gesundheitskompetenz in benachteiligten Schulen: Machbarkeit und Akzeptanz",
-    sum:"Machbarkeitsstudie zu LifeLab Dublin, einer co-designed Intervention zur Förderung von Health Literacy bei Schülern (n=356) aus vier sozioökonomisch benachteiligten Schulen in Dublin.",
-    result:"Rekrutierung auf Schulebene niedrig (6 %), individuell stark (91 %); Abbruchquoten 13,8 % (post-intervention) und 16,8 % (Follow-up). Positive Rückmeldungen von Schülern und Lehrern. Moderate Health Literacy und gutes Wohlbefinden bei Baseline; Anstiege in HL, Wohlbefinden und Lebensqualität vom Baseline zu Follow-up. Empfehlungen: mehr Inhalte, Flexibilität, strukturiertes Lehrer-Training.",
-    transfer:"Irland, ähnlich englischsprachige Schulsysteme, Ansätze co-designed Schulung auf deutschsprachige Schulen adaptierbar."
+    title:"Machbarkeit eines kogestalteten Gesundheitskompetenz-Programms für sozioökonomisch benachteiligte Schulen",
+    sum:"Mixed-Methods-Machbarkeitsstudie mit 356 Schülern und 15 Lehrkräften aus vier Schulen in Dublin zu einem kogestalteten Gesundheitskompetenz-Interventionsprogramm (LifeLab).",
+    result:"Rekrutierungsquote auf Schulebene niedrig (6%), aber auf Individualebene stark (91%). Ausfallquoten 13,8% (post-Intervention) und 16,8% (Follow-up). Interviews und Fokusgruppen zeigten positive Erfahrungen. Mittlere Anstiege von Baseline zu Follow-up in Gesundheitskompetenz, Wohlbefinden und gesundheitsbezogener Lebensqualität wurden beobachtet. Befunde unterstützen Machbarkeit und Akzeptanz mit Empfehlung zum Übergang zu definitiver Studie.",
+    transfer:"Irland – ähnliche Schulstruktur und Sozialversicherung wie Kontinentaleuropa, aber unterschiedliche Schulorganisation"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
