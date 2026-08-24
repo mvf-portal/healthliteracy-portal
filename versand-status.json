@@ -1,19 +1,18 @@
 {
  "hub": "Knowledge-Hub Gesundheitskompetenz",
  "domain": "healthliteracy.m-vf.de",
- "datum": "2026-08-21",
+ "datum": "2026-08-24",
  "stand": "terminiert",
- "titel": "MVF Gesundheitskompetenz-Newsletter 21.08.2026",
- "betreff": "Neueste Studien - Gesundheitskompetenz und Health Literacy – 21. August 2026",
- "anzahl": 3,
+ "titel": "MVF Gesundheitskompetenz-Newsletter 24.08.2026",
+ "betreff": "Neueste Studien - Gesundheitskompetenz und Health Literacy – 23. August 2026",
+ "anzahl": 2,
  "pmids": [
-  "42623490",
-  "42618908",
-  "42613107"
+  "42631525",
+  "42618915"
  ],
- "kampagne": "https://us6.admin.mailchimp.com/campaigns/edit?id=9098484",
- "termin_utc": "2026-08-21T08:00:00+00:00",
+ "kampagne": "https://us6.admin.mailchimp.com/campaigns/edit?id=9098505",
+ "termin_utc": "2026-08-24T08:00:00+00:00",
  "empfaenger": 4,
- "listengroesse": 5906,
+ "listengroesse": 5904,
  "beanstandungen": []
 }
