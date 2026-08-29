@@ -242,6 +242,7 @@ Gib ausschliesslich das geforderte JSON zurueck.
 # und das Archiv taeglich waechst. Ein Abruf ohne Treffer kostet nichts.
 NEWS_SUCHE = [
     "Gesundheitskompetenz",
+    "Health Literacy",
     "gemeinsame Entscheidungsfindung",
     "Gesundheitsinformation",
     "Patientenbeteiligung",
