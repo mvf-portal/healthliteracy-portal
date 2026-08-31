@@ -27,19 +27,13 @@
   "42391984",
   "42387920"
  ],
- "kampagne": "https://us6.admin.mailchimp.com/campaigns/edit?id=9098626",
+ "kampagne": "https://us6.admin.mailchimp.com/campaigns/edit?id=9098639",
  "termin_utc": "2026-08-31T08:00:00+00:00",
  "empfaenger": 4,
  "listengroesse": 5904,
  "beanstandungen": [],
  "aussortiert": [],
- "pool": {
-  "geholt": 220,
-  "bekannt": 65,
-  "pool": 53,
-  "gewaehlt": 7,
-  "neu": 7
- },
+ "pool": {},
  "rubriken": {
   "news": "8eb3994dbf201574"
  }
