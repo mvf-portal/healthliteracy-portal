@@ -2,6 +2,7 @@
   "_": "Themenprofil Gesundheitskompetenz / Health Literacy. Angelegt am 18.08.2026. Alle live-Links wurden am selben Tag zweimal abgerufen (echter Begriff gegen Phantasiewort); byte-gleiche Antworten stehen auf portal. Das Feld ist auffaellig JavaScript-lastig - von 39 themenspezifischen Kandidaten werteten nur 13 den Suchparameter serverseitig aus.",
   "_PUBMED": "Trefferzahl am 18.08.2026: 81.298 gesamt, 3.818 in zwoelf Monaten, 176 in 30 Tagen. Ueberschneidung mit den bestehenden Hubs: 25,9 % - davon faellt der groesste Teil auf den KI-Hub (17,2 %), Segment digital health literacy. Dagegen die harte Quote 2 im Prompt.",
   "DOMAIN": "healthliteracy.m-vf.de",
+  "HUB": "healthliteracy",
   "REPO": "mvf-portal/healthliteracy-portal",
   "TITEL": "Knowledge-Hub Gesundheitskompetenz",
   "TITEL_KURZ": "Gesundheitskompetenz",
