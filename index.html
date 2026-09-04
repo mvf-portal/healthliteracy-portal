@@ -1388,62 +1388,71 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "3. Sept. 2026, 06:21 Uhr";
+const SNAP_DATE = "4. Sept. 2026, 05:34 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"J Med Internet Res", year:"2026", pmid:"42680485",
-    author:"Shih YL et al.", pubdate:"01.09.2026",
+    journal:"Scand J Prim Health Care", year:"2026", pmid:"42691317",
+    author:"Golsäter M et al.", pubdate:"03.09.2026",
+    added:"03.09.2026",
+    title:"Bildunterstützung bei Dreijährigen verbessert Beteiligung in Kinder-Gesundheitsuntersuchungen",
+    sum:"Qualitative Studie mit 20 Hausärzten in Schweden zur Erfahrung mit Bildmaterial als Werkzeug, um Dreijährige an Gesundheitsuntersuchungen zu beteiligen und ihre Perspektiven zu erfassen.",
+    result:"Hausärzte berichten, dass Bildunterstützung ihnen hilft, Kinder zuzuhören, Beziehungen aufzubauen und faire Gesundheitsbewertungen durchzuführen – auch in komplexen Situationen. Das Vorgehen fördert Partizipation gemäß UN-Konvention Kinderrechte Artikel 12.",
+    transfer:"Skandinavien, ähnliche Primärcare-Strukturen; Übertragbarkeit auf deutsches Kinderschutzsystem gut."
+  },
+  {
+    journal:"BMJ Open Qual", year:"2026", pmid:"42686381",
+    author:"Palimetaki F et al.", pubdate:"02.09.2026",
+    added:"02.09.2026",
+    title:"Beteiligung von Pflegepatienten in Inspektionsberichten nimmt zu, bleibt aber gering",
+    sum:"Explorative Studie über 273 niederländische Inspektionsberichte zu Pflegeheimen 2020–2023, wie häufig Patienten und Angehörige als Informationsquellen in Qualitätsbewertungen zitiert werden.",
+    result:"Signifikanter Anstieg von Patientenzitaten bei 3 von 16 Bewertungskriterien, besonders zu person-zentrierter Versorgung. Trotz Zunahme bleibt Platz für systematischere Einbeziehung von Patientenerfahrungen bei Qualitätsbewertungen.",
+    transfer:"Niederlande, vergleichbare Inspektionsstrukturen und Versorgungssysteme mit Deutschland."
+  },
+  {
+    journal:"PLoS One", year:"2026", pmid:"42685027",
+    author:"Vandrevala T et al.", pubdate:"02.09.2026",
+    added:"02.09.2026",
+    title:"Vertrauen in Gesundheitsinformation: schwarze und südasiatische Gemeinschaften in Großbritannien",
+    sum:"Qualitative Studie mit 68 Personen (42 Südasien, 26 schwarz) mittels Interviews und Beobachtungen zur Beurteilung von Glaubwürdigkeit und zu kulturellen Einflüssen auf Gesundheitsinformationen.",
+    result:"Teilnehmer nutzen soziale Medien und persönliche Kontakte als vertraute Quellen; kulturell unpassende Information führt zur Suche nach Alternativen. Eindeutige kulturelle und historische Muster bestimmen, wie und warum Vertrauen gebildet wird – unterschiedlich von der Allgemeinbevölkerung.",
+    transfer:"Großbritannien; Befunde zu ethischer Heterogenität übertragbar, aber sprachgebunden (Material auf Englisch)."
+  },
+  {
+    journal:"J Ren Care", year:"2026", pmid:"42678025",
+    author:"Zhang Q et al.", pubdate:"Sept. 2026",
     added:"01.09.2026",
-    title:"Webbasierte eHealth-Plattform verbessert Verständnis von Umweltgiften",
-    sum:"Eine doppelblinde randomisierte kontrollierte Studie (n=114 Frauen) testete, ob ein eHealth-Lernprogramm (Phthalates Free) über 6 Monate die Gesundheitskompetenz zu Phthalat-Exposition besser schult als Papierbroschüren.",
-    result:"Die Interventionsgruppe zeigte signifikant stärkere Steigerung der Gesamtkompetenz um 9,93 Punkte (Wald χ² = 17,74; p &lt; 0,001). Subdomänen (Gesundheitsversorgung, Prävention, Gesundheitsförderung) verbesserten sich ebenfalls signifikant (alle p = 0,001). High-Engagement-Nutzer erreichten bessere Ergebnisse; Usability war hoch (SUS 84,7).",
-    transfer:"Taiwan, aber Plattform-Ansatz ist sprachunabhängig und auf andere Umweltrisiken übertragbar."
+    title:"Selbstmanagement-Schulung reduziert Müdigkeit bei Hämodialyse-Patienten",
+    sum:"Systematisches Review mit Meta-Analyse von 30 Studien zu Wirkung von Selbstmanagement-Schulung, Bewegungstraining und kognitiver Verhaltenstherapie auf Müdigkeit bei erwachsenen Dialysepatienten.",
+    result:"Selbstmanagement-Schulung zeigte signifikanten Effekt auf Müdigkeit (SMD = 0,98, 95% CI [0,69, 1,28], p &lt; 0,001, moderate Evidenzsicherheit). Bewegungstraining auch signifikant (SMD = 0,82, 95% CI [0,44, 1,20], p &lt; 0,001, niedrige Sicherheit). Kognitive Therapie ohne signifikanten Effekt.",
+    transfer:"Internationale multizentrische Evidenz; Befund zu Schulung als wirksames Instrument in spezialisierter Versorgung auf Deutschland übertragbar."
   },
   {
-    journal:"Front Public Health", year:"2026", pmid:"42676662",
-    author:"Cao L et al.", pubdate:"17.08.2026",
-    added:"01.09.2026",
-    title:"Lokales Gesundheitscurriculum verbessert Health Literacy an Schulen",
-    sum:"Eine Cluster-randomisierte Studie mit 180 Schülern in Qinghai (China) testete ein an lokale Kultur und Umweltgegebenheiten angepasstes Gesundheitsbildungscurriculum.",
-    result:"Die angepasste Curriculum-Gruppe zeigte signifikant höhere Health-Literacy-Werte als Kontrollgruppe: adjustierter mittlerer Unterschied 0,259 (95%-KI 0,243–0,275, p &lt; 0,001, Effektgröße η² = 0,855). Verbesserungen traten in allen sieben Dimensionen auf, unabhängig von ethnischer Herkunft oder Schultyp.",
-    transfer:"China, Schulkontext; Lokalisierung und kulturelle Passung sind zentrale Erfolgsfaktoren."
+    journal:"Int J Qual Stud Health Well-being", year:"2026", pmid:"42525429",
+    author:"O'Sullivan A et al.", pubdate:"31.12.2026",
+    added:"29.07.2026",
+    title:"Zusammenarbeit scheitert oft bei obdachlosen Frauen – Partizipation bleibt Anspruch, nicht Realität",
+    sum:"Qualitative Studie mit 12 Professionellen in Soziales/Gesundheit/NGO in Schweden und einem Women's Advisory Board zu Bedingungen für partizipative Entscheidungsfindung bei obdachlosen Frauen mit Komorbiditäten.",
+    result:"Professionelle berichten Scheitern der Zusammenarbeit zwischen Organisationen, fehlende Perspektive auf Ganzheit, Vermeidung von Verantwortung. Frauen werden selten gehört; bureaucratische Sprache und professionelle Kontrolle dominieren. Effektive Zusammenarbeit braucht frauenzentrierten Ansatz, Anpassung, Vorbereitung und Nachsorge. WAB bestätigt diese Sicht.",
+    transfer:"Schweden, ähnliche Sozialversicherungsstrukturen; Empfehlung zu Partizipation unter widrigen Bedingungen übertragbar."
   },
   {
-    journal:"BMC Health Serv Res", year:"2026", pmid:"42365310",
-    author:"Duncan TS et al.", pubdate:"27.06.2026",
-    added:"27.06.2026",
-    title:"Patientenbeteiligung im Versorgungssystem: Sichtweisen von Gesundheitsberufen",
-    sum:"Eine qualitative Analyse von 247 offenen Antworten aus einer schwedischen Befragung von Gesundheitsberufen untersuchte ihre Wahrnehmungen von Patientenpartizipation auf individueller und organisationaler Ebene.",
-    result:"Gesundheitsberufe befürworteten Beteiligung, benannten aber Systembarrieren: unvollständige Informiertheit von Patienten, Zeitmangel, Ressourcenmangel und fehlende Managementunterstützung. Digitale Tools galten als Ermöglicher, Nutzbarkeit blieb problematisch. Strukturierte Foren und Training wurden als notwendig erachtet.",
-    transfer:"Schweden, ähnliches öffentliches Gesundheitssystem wie Deutschland."
+    journal:"J Korean Acad Nurs", year:"2026", pmid:"42687651",
+    author:"Tupanich W et al.", pubdate:"28.07.2026",
+    added:"03.09.2026",
+    title:"Pflege-Schulung zu COVID-19 stärkt Bewusstsein und Prävention bei älteren Menschen in Bangkok",
+    sum:"Quasi-experimentelle Studie mit 76 älteren Erwachsenen in Bangkok zu Wirkung eines Health-Literacy-Programms (Pengjuntr V-shape Modell, 6 Domänen) auf COVID-19-Bewusstsein und Präventionsverhalten über 12 Wochen.",
+    result:"Interventionsgruppe zeigte signifikant höhere COVID-19-Awareness und Präventionsverhalten als Kontrolle (p&lt;0,001) nach 4 und 12 Wochen. Effekte blieben stabil. Pflege-gestützte, gemeindebasierte Schulung mit Verhaltensunterstützung (Gruppen, LINE, Aktivitäten, Hausbesuche) wirksam.",
+    transfer:"Thailand; Befund zu grundschul-basiertem, mehrmodalem HL-Programm bei Älteren übertragbar, aber an deutsches Sprachennetz angepasst."
   },
   {
-    journal:"Am J Nurs", year:"2026", pmid:"42343185",
-    author:"Paloma-Mora B et al.", pubdate:"01.07.2026",
-    added:"25.06.2026",
-    title:"Gesundheits-Coaching stärkt Selbstverantwortung von Patienten mit Herzinsuffizienz",
-    sum:"Eine quasi-experimentelle Studie untersuchte, ob ein Pflegendenzentriertes Coaching-Programm die Patientenempowerment-Dimensionen (positive Haltung, informierte Entscheidungsfindung, Wissenstaustausch) bei hospitalisierten Herzinsuffizienz-Patienten verbessert.",
-    result:"Die Positivität-Kontrolldimension verbesserte sich signifikant um 0,58 Punkte (p &lt; 0,05). Im Item zur Informiertheit zeigte sich ebenfalls ein signifikanter Unterschied. Coaching erwies sich als wirksam für Empowerment in klinischen Settings, wenn trainierte Pflegende und unterstützendes Umfeld vorhanden sind.",
-    transfer:"Spanien, Uniersitätskrankenhaus; Empowerment-Messinstrument ist sprachunabhängig."
-  },
-  {
-    journal:"Z Evid Fortbild Qual Gesundhwes", year:"2026", pmid:"42336730",
-    author:"Daube D et al.", pubdate:"24.06.2026",
-    added:"23.06.2026",
-    title:"Patientenbeteiligung in Forschung: Barrieren und Unterstützungsbedarfe von Forschenden",
-    sum:"Eine qualitative Interviewstudie mit 10 klinischen Forschenden und Koordinatoren an der Universitätsklinik Jena untersuchte deren Perspektiven, Barrieren und Unterstützungsbedarfe für aktive Patientenbeteiligung in Studien.",
-    result:"Unterstützungsbedarfe wurden benannt in: Wissen, Kommunikation, Koordination, Strukturbedingungen. Barrieren: späte Patientenintegration, begrenzte Ressourcen, Risiko von bloß symbolischer Partizipation. Forschende forderten praxisorientierte Beratung, kompakte Schulungen, zentrale Rekrutierungsplattformen und bessere Vorgaben durch Förderorganisationen.",
-    transfer:"Deutschland, Universitätsklinik; direkt auf deutsches Forschungssystem anwendbar."
-  },
-  {
-    journal:"Sante Publique", year:"2026", pmid:"42674990",
-    author:"Berkesse A et al.", pubdate:"2026",
-    added:"31.08.2026",
-    title:"Territoriale Suchtprävention mit Patienten als Co-Designer und Co-Produzenten",
-    sum:"Eine pragmatische, iterative Fallstudie mit qualitativen Interviews nach Begleitungssitzungen dokumentierte die Entwicklung und Pilotierung einer territorialen Unterstützungseinheit für Suchtgenesung in Partnerschaft mit betroffenen Patienten.",
-    result:"Das Projekt identifizierte fünf Erfolgsfaktoren für Partizipationsvorhaben: klare Patientenidentifikationskriterien, explizite strategische Hypothesen, Socratisches Dialogtraining zur Wissensvermittlung, Co-Authoring und regionale Verankerung. Patient-Partner mobilisierten Erfahrungswissen, transformierten Professionellenpraxis und erweiterten ihre Professionalisierungspfade.",
-    transfer:"Frankreich, lokale öffentliche Gesundheit; Modell ist auf andere Gesundheitsherausforderungen übertragbar."
+    journal:"Health Econ", year:"2026", pmid:"42473013",
+    author:"Cornaglia F et al.", pubdate:"19.07.2026",
+    added:"19.07.2026",
+    title:"Information über Operationsrisiken ändert Entscheidungen bei Hüftoperation – falsche Erwartungen beeinträchtigen Nutzen",
+    sum:"Discrete-Choice-Experiment mit 400+ Personen, die aus Patientenperspektive über Hüftersatz entschieden; Test, wie Zusatzinformation über Operationsrisiken und Physiotherapie-Verfügbarkeit Glauben und Entscheidungen beeinflussen.",
+    result:"Glauben an Operationsergebnisse weichen systematisch ab; Zusatzinformation wirkt heterogen. Ausschluss von Physiotherapie als Option erklärt vier Fünftel des Nutzenschadens, falsche Glauben ein Fünftel. Bildung ist starker Vorhersager von Nutzenschaden durch falsche Erwartungen.",
+    transfer:"Großbritannien; Befund zu Informationsasymmetrie und Wahlverhalten übertragbar, aber an NHS-freie Arztwahl angepasst nötig."
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -1459,7 +1468,7 @@ const RADAR_FRISTEN = [["2026-09-22", "2026-10-20", "2026-10-20", "2026-09-07", 
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "03.09.2026";
+const NEWS_STAND = "04.09.2026";
 const NEWS = [
   {titel:"Stiftung Gesundheit: Drei Jahrzehnte Einsatz für verständliche Gesundheitsinformationen", datum:"2026-09-01", url:"https://www.monitor-versorgungsforschung.de/news/stiftung-gesundheit-drei-jahrzehnte-einsatz-fuer-verstaendliche-gesundheitsinformationen/"},
   {titel:"Gefährliche Fehlinformationen: Auf TikTok werden psychische Erkrankungen oft falsch dargestellt", datum:"2026-04-07", url:"https://www.monitor-versorgungsforschung.de/news/gefaehrliche-fehlinformationen-auf-tiktok-werden-psychische-erkrankungen-oft-falsch-dargestellt/"},
