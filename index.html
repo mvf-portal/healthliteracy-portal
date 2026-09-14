@@ -1388,62 +1388,71 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "13. Sept. 2026, 08:31 Uhr";
+const SNAP_DATE = "14. Sept. 2026, 06:21 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Int J Qual Stud Health Well-being", year:"2026", pmid:"42726907",
-    author:"Andersson S et al.", pubdate:"31.12.2026",
+    journal:"BMJ Open", year:"2026", pmid:"42711082",
+    author:"Summanwar D et al.", pubdate:"08.09.2026",
+    added:"08.09.2026",
+    title:"Maschinelles Lernen identifiziert Demenzrisiko: Sichere Messaging steigert Patienten-Engagement",
+    sum:"Protokoll einer Machbarkeitsstudie in 12 amerikanischen Hausarztpraxen, die prüft, ob ein Passive-Digital-Marker-Modell aus elektronischen Patientenakten Patienten ≥65 Jahre mit Demenzrisiko identifiziert und ob Messaging vor Visiten zu Untersuchungen motiviert.",
+    result:"Primäre Ziele sind Machbarkeit der Implementierung, PDM-basierte Risikoidentifikation, sichere Messaging-Zustellung und Engagement mit Brain Health Navigator (gemessen durch Öffnungsraten, Terminabsprachen). Studie läuft; NCT07016178 registriert.",
+    transfer:"USA – starke Abhängigkeit von EHR-Integration und Infrastruktur; Ansatz der frühen digitalen Risikoidentifikation aber prinzipiell übertragbar"
+  },
+  {
+    journal:"Front Public Health", year:"2026", pmid:"42725192",
+    author:"Wu M et al.", pubdate:"24.08.2026",
     added:"11.09.2026",
-    title:"Patientenpräferenzen für Diabetesschulung: Warum lehnen Patienten Gruppenunterricht ab?",
-    sum:"Qualitative Studie mit 18 Patienten, die eine Gruppenediktion zum Typ-2-Diabetes in der schwedischen Primärversorgung abgelehnt hatten, zur Erfassung ihrer Gründe und Vorstellungen.",
-    result:"Drei unterschiedliche Konzeptionen: Patienten ohne Bedarf bevorzugten individuelles Lernen; andere erkannten Vorteile, benannten aber Barrieren wie inflexible Zeitpläne; wiederum andere schätzten reflektive, unterstützende Umgebungen und gemeinsame Erfahrungen. Flexible, personenzentrierte Ansätze sind notwendig.",
-    transfer:"Schweden, vergleichbares Primärversorgungssystem – Gatekeeping-Struktur nicht auf Deutschland übertragbar"
+    title:"eHealth-Kompetenz und physische Aktivität fördern soziale Anpassung bei Medizinstudierenden",
+    sum:"Studie untersucht die Verbindungen zwischen eHealth-Literalität, körperlicher Aktivität und sozialer Anpassbarkeit bei 2.026 Medizinstudierenden im 1. und 2. Jahr in China mithilfe standardisierter Fragebögen.",
+    result:"Soziale Anpassbarkeit korrelierte positiv mit körperlicher Aktivität (Spearmans r = 0,219, p &lt; 0,001) und eHealth-Literalität (Spearmans r = 0,348, p &lt; 0,001). Im finalen Regressionsmodell blieb körperliche Aktivität (β = 0,124, p &lt; 0,001) und eHealth-Literalität (β = 0,294, p &lt; 0,001) nach Anpassung für Geschlecht und Studienjahrgang positiv assoziiert mit sozialer Anpassung. Das Modell erklärte 16,9% der Varianz.",
+    transfer:"China – Bildungskontexte unterscheiden sich; eHealth-Literalität als Ressource für psychosoziale Gesundheit übertragbar"
   },
   {
-    journal:"BMJ Open", year:"2026", pmid:"42727969",
-    author:"Høgsholt M et al.", pubdate:"11.09.2026",
-    added:"11.09.2026",
-    title:"Physiotherapie-Schulung senkt Hüftschmerz bei Sehnenpatholgie um klinisch relevante Werte",
-    sum:"Prospektive Kohorte mit 60 Frauen mit MRT-verifizierter Glutealsehnenpathologie, die 3 Monate Physiotherapie mit Patientenschulung und Heimübungen erhielten.",
-    result:"85 % Trainingsadherenzen. HAGOS-Schmerzsubskala verbesserte sich von 46,4 auf 60,1 (Mittelwert mit 95%-KI 54,4–65,7); klinisch relevante Verbesserungen in sekundären Outcomes sowie Kraft und Mobilitätstests.",
-    transfer:"Dänemark, öffentliches Gesundheitssystem – Vergleichbar mit deutschem Versorgungsauftrag"
+    journal:"Europace", year:"2026", pmid:"42669050",
+    author:"Khan M et al.", pubdate:"04.08.2026",
+    added:"30.08.2026",
+    title:"Opportunistisches Screening für Vorhofflimmern: Hohe Teilnahme, aber begrenzte Bevölkerungsabdeckung",
+    sum:"Cluster-randomisierte schwedische Studie (STROKESTOP III) vergleicht systematisches Screening per Einladung mit opportunistischem Screening bei Praxisbesuchen bei 75–76-Jährigen in 16 Hausarztpraxen.",
+    result:"Systematisches Arm (n=1.312 eingeladen): 46,3% Teilnahme (607). Opportunistisch (n=1.390 anwesend): nur 46,1% (641) wurden auf Berechtigung überprüft; von 749 überprüften: 61,4% Teilnahme (374). Unter eingeladenen Personen höher (61,4% vs. 46,3%, p &lt; 0,005); aber Gesamtabdeckung niedriger (25,3% vs. 42,2%, p &lt; 0,005). Opportunistisches Screening erreichte höheres Risiko (CHA2DS2-VASc 3,99 vs. 3,60).",
+    transfer:"Schweden – skandinavisches Versorgungssystem, Hausarzt-Gatekeeper; Dilemma zwischen Partizipation und Bevölkerungsabdeckung auch in Deutschland relevant"
   },
   {
-    journal:"Braz J Med Biol Res", year:"2026", pmid:"42715468",
-    author:"Duan J et al.", pubdate:"07.09.2026",
-    added:"09.09.2026",
-    title:"Schulungsmodell KAP senkt Blutdruck und hebt Therapietreue bei Hypertonie",
-    sum:"Randomisierte Kontrollstudie mit 200 Hypertonikern, davon 100 mit informationsgestütztem Gesundheitsmanagement plus Knowledge-Attitude-Practice (KAP)-Schulung versus Kontrolle mit Standard.",
-    result:"Blutdruckkontrollrate Intervention 78 % vs. Kontrolle 61 % (p&lt;0,05). Systolischer/diastolischer Blutdruck nach Intervention niedriger (p&lt;0,05). Medikamentenadhärenz, Selbstmanagement, Gesundheitsverhalten und Lebensqualität höher in Interventionsgruppe (p&lt;0,05). Patientenzufriedenheit höher (p&lt;0,05).",
-    transfer:"China – Unterschiedliche Bildungs- und Gesundheitssysteme, aber KAP-Prinzipien prinzipiell universell anwendbar"
+    journal:"Rheumatol Int", year:"2026", pmid:"42443611",
+    author:"Kremer P et al.", pubdate:"14.07.2026",
+    added:"13.07.2026",
+    title:"LLMs beantworten Patientenfragen zu Bindegewebserkrankungen: Blinde Bewertung durch Ärzte und Patienten",
+    sum:"Studie vergleich die Qualität von Antworten von ChatGPT, Gemini und Claude zu häufigen Patientenfragen zu vier Bindegewebserkrankungen mit Google Search und bewertet sie durch Patienten und Rheumatologen nach Verständlichkeit, Glaubwürdigkeit und medizinischer Korrektheit.",
+    result:"Alle drei LLMs beantwortet 100% der Fragen (80/80), Google Search 90% (72/80). Patienten bewerteten LLM-Antworten als empathisch (Mittelwert 1,40–2,77) und vertrauenswürdig (1,47–2,6), Ärzte als medizinisch korrekt (1,23–1,98). Gemini 2.5 Pro wurde von beiden Gruppen am häufigsten als beste Lösung bewertet (59% und 63%). Jedoch: 40–55% der von Patientengruppen für wichtig gehaltenen Fragen sind nicht in EULAR-Empfehlungen abgedeckt, besonders Psychosoziales und Familienplanung (0% vollständig adressiert).",
+    transfer:"Deutschland – Bindegewebserkrankungen weltweit vergleichbar; Sprachabhängigkeit bei Verständlichkeit relevant"
   },
   {
-    journal:"Patient Educ Couns", year:"2026", pmid:"42520597",
-    author:"Larsson K et al.", pubdate:"25.07.2026",
-    added:"28.07.2026",
-    title:"Wie treffen Onkologen Therapieentscheidungen in komplexen Situationen?",
-    sum:"Qualitative Studie mit 12 schwedischen Fachleuten zur Erfassung ihrer Erfahrungen bei der Therapieauswahl in späten Linien bei metastasiertem Brustkrebs unter Bedingungen unklarer Evidenz.",
-    result:"Fünf Themen: Ärzte nutzen Fachkompetenz und Erfahrung, laden Patienten zur Partizipation ein, unterstützen autonome Entscheidungen und holen kollegiale Ratschläge ein. Ärzte sind aktive Entscheidungsträger, nicht neutrale Vermittler; sie teilen ihre Wertungen mit und tragen Verantwortung.",
-    transfer:"Schweden, Universitätskliniken – Teilweise auf deutsche Versorgung übertragbar"
+    journal:"Prim Care Diabetes", year:"2026", pmid:"42431736",
+    author:"Moore JR et al.", pubdate:"10.07.2026",
+    added:"10.07.2026",
+    title:"Ungleiche regionale Vorgaben für Diabetes-Schulung in Spanien: Lücken bei psychosozialem Support",
+    sum:"Studie vergleicht 13 Leitlinien für Diabetes-Selbstmanagement-Schulung aus spanischen Regionen nach Struktur, Inhalten und Übereinstimmung mit internationalen Standards (ADA, Global Diabetes Survey).",
+    result:"Große Variabilität zwischen Regionen: die meisten betonen individualisierte Schulung und multidisziplinäre Teams, aber Lücken bei Psychosozialem (z. B. Angststörungen, Depression), Ernährungsberatung und vulnerablen Gruppen. Qualitätsmessung und Evaluationsprozesse waren inkonsistent; einige Leitlinien hatten kein systematisches Bewertungsgerüst.",
+    transfer:"Südeuropa, vergleichbares Gesundheitssystem – Regionalisierung und Ressourcenunterschiede sind auch in Deutschland relevant"
   },
   {
-    journal:"Eur Geriatr Med", year:"2026", pmid:"42315742",
-    author:"Schwarz GL et al.", pubdate:"18.06.2026",
-    added:"18.06.2026",
-    title:"Was möchten ältere Patienten bei Intensivmedizin-Entscheidungen beitragen?",
-    sum:"Qualitative Querschnittsbefragung mit 202 Patienten ab 80 Jahren und 153 Angehörigen aus Norwegen zu ihrer Rolle bei Entscheidungen bei hypothetischer lebensbedrohlicher Erkrankung.",
-    result:"Fünf Kategorien: Wissenschaftliches Wissen suchen, persönliches Wissen einbringen, Pflege an Heterogenität älteren Alters anpassen, Entscheidungsprozess verbessern, Sicherheit stärken. Alle Kategorien sind Bewältigungsstrategien für multidimensionale Unsicherheit.",
-    transfer:"Norwegen, vergleichbare Versicherungsmedizin – Shared-Decision-Making-Modelle ohne Gatekeeping"
+    journal:"J Med Internet Res", year:"2026", pmid:"42398057",
+    author:"Spurway C et al.", pubdate:"03.07.2026",
+    added:"03.07.2026",
+    title:"Shared Decision-Making in der Hausarztpraxis: Patienten sehen KI-Tools als Chance, fordern aber Transparenz",
+    sum:"Qualitative Studie mit 18 britischen Patienten mit mehreren chronischen Erkrankungen, die ihre Erfahrungen mit Shared Decision-Making und ihre Wahrnehmung eines KI-Tools zur Unterstützung von Verschreibungsentscheidungen in simulierten GP-Konsultationen beschreiben.",
+    result:"Patienten sehen KI-Potenzial für bessere Kommunikation und Informationszusammenfassung, aber fordern klare Erklärungen, verständliches Design und klinische Führung. Bedenken: Zeitmangel in Sprechstunden, Fragmentierung von Akten, Vertrauensfrage zur KI-Genauigkeit, Angst vor Depersonalisierung, Forderung nach klinischem Urteil statt Ersatz durch KI.",
+    transfer:"UK NHS mit Gatekeeping-Hausarzt – System nicht direkt übertragbar; aber Patienten-Anforderungen an verständliche KI-Unterstützung im SDM universell"
   },
   {
-    journal:"Tidsskr Nor Laegeforen", year:"2026", pmid:"42343611",
-    author:"Mestl H", pubdate:"23.06.2026",
-    added:"25.06.2026",
-    title:"Gesundheitskompetenz bei älteren Patienten mit Herz-Kreislauf-Erkrankungen: Latente Profilanalyse",
-    sum:"Querschnittsstudie mit 459 älteren Patienten mit Herz-Kreislauf-Erkrankungen zur Erfassung von eHealth-Literalität und assoziierten Faktoren mittels latenter Profilanalyse.",
-    result:"Mittlere eHEALS-Gesamtwerte 25,16 ± 5,59. Drei Gruppen: niedrig (28,3 %), mittel (50,3 %), hoch (21,4 %). Höhere Bildung, häufigere Internetnutzung, regelmäßige Bewegung und wahrgenommene soziale Unterstützung waren positiv assoziiert; hohes Alter und Komorbiditäten negativ.",
-    transfer:"China – Demographische und Systemunterschiede, aber Heterogenität eHealth-Literacy universell relevant"
+    journal:"Musculoskeletal Care", year:"2026", pmid:"42332346",
+    author:"Winter A et al.", pubdate:"Juni 2026",
+    added:"22.06.2026",
+    title:"NHS-Patientenblätter zur Frozen Shoulder: Inkonsistente Inhalte, mangelnde Leitlinienkonformität",
+    sum:"Studie sucht und analysiert 38 öffentlich verfügbare Patienteninformationsblätter von NHS-Trusts zur konservativen Behandlung der Frozen Shoulder und vergleicht sie mit NICE-Leitlinie und BESS-Empfehlungen.",
+    result:"Erhebliche Variation bei Analgesie (Angaben), Aktivitätsmodifikation, Bewegungstherapie und Injektionen. Kein einziger Patientenleitfaden spiegelt alle Kernelemente der NICE-Leitlinie und BESS-Standards wider. Publikationsdaten von April 2013 bis März 2025 zeigen, dass Konsistenz und Klarheit stark variieren.",
+    transfer:"UK NHS – ähnliche Dokumentationspflichten und Leitlinienkultur wie in Deutschland; Problematik der Inkonsistenz lokal übertragbar"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -1459,7 +1468,7 @@ const RADAR_FRISTEN = [["2026-09-22", "2026-10-20", "2026-10-20", "2026-09-14", 
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "13.09.2026";
+const NEWS_STAND = "14.09.2026";
 const NEWS = [
   {titel:"Stiftung Gesundheit: Drei Jahrzehnte Einsatz für verständliche Gesundheitsinformationen", datum:"2026-09-01", url:"https://www.monitor-versorgungsforschung.de/news/stiftung-gesundheit-drei-jahrzehnte-einsatz-fuer-verstaendliche-gesundheitsinformationen/"},
   {titel:"Gefährliche Fehlinformationen: Auf TikTok werden psychische Erkrankungen oft falsch dargestellt", datum:"2026-04-07", url:"https://www.monitor-versorgungsforschung.de/news/gefaehrliche-fehlinformationen-auf-tiktok-werden-psychische-erkrankungen-oft-falsch-dargestellt/"},
