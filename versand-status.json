@@ -1,29 +1,28 @@
 {
  "hub": "Knowledge-Hub Gesundheitskompetenz",
  "domain": "healthliteracy.m-vf.de",
- "datum": "2026-09-22",
+ "datum": "2026-09-23",
  "stand": "terminiert",
- "titel": "MVF Gesundheitskompetenz-Newsletter 22.09.2026",
- "betreff": "Neueste Studien - Gesundheitskompetenz und Health Literacy – 22. September 2026",
- "anzahl": 5,
+ "titel": "MVF Gesundheitskompetenz-Newsletter 23.09.2026",
+ "betreff": "Neueste Studien - Gesundheitskompetenz und Health Literacy – 23. September 2026",
+ "anzahl": 6,
  "pmids": [
-  "42765183",
-  "42765165",
-  "42765156",
-  "42764159",
-  "42721321"
+  "42771486",
+  "42771341",
+  "42770113",
+  "42768367",
+  "42756107",
+  "42363103"
  ],
- "kampagne": "https://us6.admin.mailchimp.com/campaigns/edit?id=9099004",
- "termin_utc": "2026-09-22T08:00:00+00:00",
- "empfaenger": 16,
+ "kampagne": "https://us6.admin.mailchimp.com/campaigns/edit?id=9099042",
+ "termin_utc": "2026-09-23T08:00:00+00:00",
+ "empfaenger": 17,
  "listengroesse": 5896,
  "beanstandungen": [],
- "aussortiert": [
-  "Studie 4 (PMID 42764784): Titel, Zusammenfassung und Ergebnis enthalten 4 englische Funktionswoerter - vermutlich der englische Abstract"
- ],
+ "aussortiert": [],
  "pool": {
   "geholt": 220,
-  "bekannt": 178,
+  "bekannt": 176,
   "pool": 32,
   "gewaehlt": 6,
   "neu": 6
