@@ -1501,62 +1501,71 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "26. Sept. 2026, 06:22 Uhr";
+const SNAP_DATE = "27. Sept. 2026, 09:47 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Health Expect", year:"2026", pmid:"42788763",
-    author:"Pittet O et al.", pubdate:"Okt. 2026",
+    journal:"Yonsei Med J", year:"2026", pmid:"42773494",
+    author:"Jeon K et al.", pubdate:"Okt. 2026",
+    added:"23.09.2026",
+    title:"Herzrehabilitations-Schulung senkt Sterblichkeit nach Herzinfarkt deutlich",
+    sum:"Die Studie untersuchte anhand von Krankenkassendaten von 92.968 südkoreanischen Herzinfarkt-Patienten (2018–2022), wie strukturierte Schulung und Therapiesitzungen in der Rehabilitation auf Sterblichkeit und Krankenhauseinweisungen wirken.",
+    result:"85,5 % erhielten keine Rehabilitation. Alle Rehabilitationsgruppen zeigten niedrigere Sterblichkeit. Größter Effekt: Schulung + ≥4 Therapiesitzungen (HR 0,257, 95%-KI 0,123–0,539) oder ≥4 Sitzungen ohne Schulung (HR 0,291, 95%-KI 0,203–0,417). Schulungsbasierte Rehabilitation korrelierte zudem mit weniger kardiovaskulären Neuaufnahmen und Wiederinterventionen.",
+    transfer:"Südkorea, ähnliches Versicherungssystem; Struktur und Outcome-Tracking auf deutsches Gesundheitswesen übertragbar."
+  },
+  {
+    journal:"Oral Maxillofac Surg", year:"2026", pmid:"42791420",
+    author:"Stephan D et al.", pubdate:"26.09.2026",
     added:"25.09.2026",
-    title:"Vergleich digitaler Entscheidungshilfen für Endometriose: Qualität und Vollständigkeit unzureichend",
-    sum:"Scoping Review zu digitalen Patient Decision Aids (PtDAs) für Endometriose: 10 PtDAs wurden analysiert (5 von Experten, 5 KI-generiert) nach IPDAS-Kriterien und Transparenz.",
-    result:"Die meisten PtDAs beschrieben Gesundheitszustand, Optionen mit Pro/Contra, verfehlten aber wichtige IPDAS-Kriterien. Expertengenerierte PtDAs zeigten mangelnde Transparenz in Entwicklung und fehlende formale Evaluation. KI-Aids erwähnten häufiger Komplementärmedizin. Alle zeigten Defizite in Vollständigkeit und Evidenzstützung.",
-    transfer:"Schweiz, strukturelles Problem unabhängig vom System – Qualitätsdefizite universell."
+    title:"ChatGPT vereinfacht medizinische Berichte – Patienten verstehen mehr",
+    sum:"Die Studie untersuchte, ob ChatGPT komplexe medizinische Berichte (MRT, CT, OP-Berichte, Entlassungssummern) in verständlichere Fassungen für Patienten umwandeln kann und ob dies das Verständnis verbessert.",
+    result:"Vereinfachte Berichte erhielten signifikant höhere Lesbarkeitsindizes (Flesch Reading Ease 48,4 ± 5,0 vs. 22,9 ± 5,2; p &lt; 0,0001). Patienten beurteilten vereinfachte Texte als deutlich klarer und nützlicher (p &lt; 0,001). Die Verständnisgenauigkeit verbesserte sich markant (z. B. MRI 80,3% vs. 53,7%; p &lt; 0,001). Keine medizinischen Informationen gingen verloren.",
+    transfer:"Deutschland: Sprachgebunden; Anwendbarkeit auf deutsche Fachbegriffe und Dokumentationsstandards zu prüfen."
   },
   {
-    journal:"BMJ Open", year:"2026", pmid:"42790905",
-    author:"Grewal N et al.", pubdate:"25.09.2026",
+    journal:"BMJ Glob Health", year:"2026", pmid:"42791046",
+    author:"Murray A et al.", pubdate:"25.09.2026",
     added:"25.09.2026",
-    title:"Patientenbeteiligung bei digitaler Überwachung: Co-Design für Aortendissektion",
-    sum:"Qualitative Co-Creation-Studie mit 76 Patienten mit thorakaler Aortendissektion in vier Phasen, um Monitoring-Domains zu identifizieren, die Patienten selbst als bedeutsam erachten.",
-    result:"Fünf wiederkehrende Domains: Unsicherheit und Rezidivangst managen, Symptome interpretieren, Blutdrucküberwachung, Lebenspartizipation und Zugänglichkeit. Diese wurden in eine Monitoring-Agenda mit Symptomkontextualisierung, Blutdrucktrends, Patient-Reported Outcomes, Aktivitäts-Feedback, Entscheidungshilfen und Eskalationspfaden übersetzt. Patienten betonten Monitoring als Ergänzung, nicht Ersatz für bildgebende Verfahren.",
-    transfer:"Niederlande, tertiäres Zentrum – Strukturen nicht ohne Weiteres übertragbar, aber Co-Design-Methode bewährt."
+    title:"Mentale Gesundheitsschulung für Schüler in Kambodscha und Vietnam: Co-Adaptation gelungen",
+    sum:"Die Studie beschreibt die partizipative Co-Adaption einer schulgestützten Intervention zur Mental Health Literacy für Jugendliche in zwei Ländern mit niedrigem/mittlerem Einkommen, unter Beteiligung von Schülern, Eltern, Lehrern und Stakeholdern.",
+    result:"Zentrale Adaptationen: Zwei Facilitatoren pro Sitzung (ein Lehrer, ein externer Provider, Rückfallehrer in Kambodscha); Peer-Co-Facilitation in einigen Sitzungen; Ergänzung neuer Themen (Internet, Essstörungen/Körperbild, Selbstverletzung/Suizid). Frühes und diverse Stakeholder-Engagement stärkte Co-Adaptationsprozess.",
+    transfer:"Kambodscha, Vietnam; LMIC-Kontext; partizipative Methodik und Kulturadaption sind systemunabhängig, Modell auf Deutschland übertragbar."
   },
   {
-    journal:"J Mother Child", year:"2026", pmid:"42790888",
-    author:"Abbass-Dick J et al.", pubdate:"01.01.2026",
+    journal:"Nutrients", year:"2026", pmid:"42797080",
+    author:"Santos-López MF et al.", pubdate:"21.09.2026",
+    added:"26.09.2026",
+    title:"Virtuelle Ernährungsschulung für Nierenkranke: hohe Akzeptanz, machbar",
+    sum:"Die Studie entwickelte systematisch ein strukturiertes virtuelles Schulungsprogramm für erwachsene Patienten mit chronischer Nierenerkrankung Stadium 3–4 und prüfte dessen Machbarkeit anhand von Akzeptanz und Vollendungsraten.",
+    result:"Das Programm besteht aus 4 Sitzungen mit 10 kurzen Videos und 6 digitalen Materialien. 87 % der eingeladenen Patienten absolvierten das Programm und füllten Akzeptanzfragebögen aus. Mittlere Akzeptanzpunktzahl: 32 von 35 Punkten. Hohe Machbarkeit und Akzeptabilität demonstriert.",
+    transfer:"Systematische ADDIE-Methode und COM-B-Modell sind sprachsystemunabhängig; Implementierung in Deutschland analog möglich."
+  },
+  {
+    journal:"Nutrients", year:"2026", pmid:"42797065",
+    author:"Joo H et al.", pubdate:"20.09.2026",
+    added:"26.09.2026",
+    title:"Niedrigere Gesundheitskompetenz korreliert mit schlechterer Ernährungsqualität",
+    sum:"Die Studie analysierte an 5.353 koreanischen Erwachsenen den Zusammenhang zwischen Gesundheitskompetenz (10-Item-Instrument) und Ernährungsqualität (Korean Healthy Eating Index aus 24-h-Recall), mit Altersstratifizierung.",
+    result:"Rohe Differenz schien positiv, aber Altersadjustierung invertierte sie (β = −2,76; vollständig adjustiert β = −1,70, 95%-KI −2,66 bis −0,75). Höhere Odds für schlechteste Ernährungsterzile bei niedriger Kompetenz (OR = 1,37, 95%-KI 1,09–1,72; p = 0,007). Pro 1-SD-Anstieg der Gesundheitskompetenz: β = +0,77 (95%-KI 0,42–1,12). Assoziation stärker bei Männern.",
+    transfer:"Südkorea; Querschnittdesign schließt Kausalität aus; Befund zeigt Ungleichheit nach Bildung."
+  },
+  {
+    journal:"Farm Comunitarios", year:"2026", pmid:"42774024",
+    author:"Al-Anasweh Q et al.", pubdate:"15.10.2026",
+    added:"23.09.2026",
+    title:"Patienten in Jordanien lesen Beipackzettel – aber nicht bei Polypharmaka",
+    sum:"Die Studie untersuchte an 343 jordanischen Patienten Einstellungen und Verhalten gegenüber Packungsbeilagen (Patient Information Leaflets) und identifizierte Prädiktoren für deren Lektüre.",
+    result:"Hohe Leseprävalenz: 87,2 %. Häufigste gelesene Abschnitte: Indikation (80,6 %), Nebenwirkungen (77,9 %), Anwendung (63,5 %). Höhere Wahrscheinlichkeit für Lektüre: weiblich, verheiratet, niedriges Einkommen (alle p &lt; 0,05). Polypharmaka assoziiert mit Nicht-Lesen (p &lt; 0,001). Hauptgründe für Nicht-Lesen: ausreichende ärztliche Information (52,3 %), ungeeignete Schriftgröße (29,5 %).",
+    transfer:"Jordanien (Mittlerer Osten); zeigt Ungleichheit nach Geschlecht, Einkommen und Medikamentenzahl; Schriftgrößen-Problem universal."
+  },
+  {
+    journal:"BMC Health Serv Res", year:"2026", pmid:"42791541",
+    author:"Skoss R et al.", pubdate:"11.08.2026",
     added:"25.09.2026",
-    title:"Konsistenz der Stillaufklärung über perinatale Periode: eHealth-Lösung gefordert",
-    sum:"Deskriptive Befragung von 93 Fachpersonen und 78 Müttern zu Erfahrungen mit Stillaufklärung und Eignung von eHealth-Ressourcen zur Standardisierung.",
-    result:"Mütter erhielten Aufklärung von diversen Fachpersonen mit variierender Information zu verschiedenen Zeitpunkten. Mündliche Kommunikation war häufigste Methode. Beide Gruppen nannten Online-Videos und Websites als wirksamste digitale Lösungen. Mangel an Konsistenz und Zugänglichkeit über die gesamte perinatale Phase identifiziert.",
-    transfer:"Kanada – Organisierungsmodell unterschiedlich, aber Fragmentierung perinataler Beratung systemübergreifend relevant."
-  },
-  {
-    journal:"Urolithiasis", year:"2026", pmid:"42782293",
-    author:"Golomb D et al.", pubdate:"24.09.2026",
-    added:"24.09.2026",
-    title:"Umfassende Aufklärung senkt postoperative Schmerzen nach Ureterstent-Einlage",
-    sum:"Randomisierte Pilotstudie mit 48 Patienten (19 Intervention, 29 Kontrolle): Intervention erhielt multimodale Aufklärung (Erklärung, Video, Stent-Muster), Kontrolle Standardberatung.",
-    result:"Intervention hatte niedrigeren medianen Schmerzwert POD1 (1 vs. 3, p=0,084) und weniger ungeplante Notaufnahme-Besuche (5,3 % vs. 24,1 %, OR 0,18, 95%KI 0,004–1,62; Risikodifferenz –18,9 %, p=0,123). Keine statistischen Signifikanz, aber Konfidenzintervalle vereinbar mit klinischem Nutzen. Geringe Komplikationsraten.",
-    transfer:"Israel – Pilotstudie, größere Fallzahl erforderlich; Konzept von Sprachenbarrieren unabhängig."
-  },
-  {
-    journal:"BMC Palliat Care", year:"2026", pmid:"42786479",
-    author:"Gürdap Z et al.", pubdate:"05.08.2026",
-    added:"25.09.2026",
-    title:"Spirituelle Ressourcen stärken Patientenempowerment auch bei hoher Symptombelastung",
-    sum:"Querschnittsstudie mit 140 Patienten in Palliativpflege in der Türkei zur Vorhersage von Patient Empowerment durch Symptombelastung und spirituales Wohlbefinden.",
-    result:"Mittlere Symptombelastung (50,95 ± 11,41), aber moderate spirituale Wohlbefindensscores (24,25 ± 4,93) und Empowerment (3,05 ± 0,48). Regressionsmodell erklärte 42,8 % der Varianz: Spirituales Wohlbefinden (β = 0,484, p&lt;0,001) und andere chronische Erkrankungen (β = 0,372, p&lt;0,001) waren stärkste Prädiktoren; Symptombelastung zeigte keinen signifikanten Effekt.",
-    transfer:"Türkei – holistische Pflege systemunabhängig, spirituelle Begleitung in allen Kulturen relevant."
-  },
-  {
-    journal:"Stud Health Technol Inform", year:"2026", pmid:"42393957",
-    author:"Duplaga M", pubdate:"29.06.2026",
-    added:"03.07.2026",
-    title:"Digitale Faktoren und Health Literacy: Wer ist anfällig für Gesundheitsfehlinformation?",
-    sum:"Online-Befragung von 2.701 polnischen Erwachsenen (18–75 Jahre) zum Zusammenhang zwischen digitalen Verhaltensweisen, Health Literacy und Anfälligkeit für Fehlinformation.",
-    result:"Höhere Social-Media-Sucht, zwanghafter Internetgebrauch und E-Health Literacy waren mit erhöhter Anfälligkeit assoziiert (p&lt;0,05). Niedrigere tägliche Internetnutzung war mit höherer Anfälligkeit verknüpft als &gt;3 Stunden/Tag. Digitale Variablen erklärten jedoch nur bescheidene zusätzliche Varianz im Gesamtmodell – begrenzte Erklärungskraft.",
-    transfer:"Polen, EU-Land mit vergleichbarem Gesundheitssystem – digitale Literacy-Befunde potenziell übertragbar."
+    title:"Eltern chronisch kranker Kinder: bessere Gesundheitskompetenz bedeutet weniger Stress",
+    sum:"Die Studie untersuchte mittels Clusteranalyse Gesundheitskompetenz-Profile (Health Literacy Questionnaire) von australischen Eltern von Kindern mit speziellen Gesundheitsbedürfnissen und deren Zusammenhang mit Erfahrungen der Versorgungsintegration und elterlichem Stress.",
+    result:"Drei distinct Health-Literacy-Profile identifiziert. Eltern mit höherer Gesundheitskompetenz berichteten bessere Erfahrungen mit koordinierter Versorgung und niedrigere wahrgenommene Stresslevels. Profile unterschieden sich nicht in Demografie, aber in Stresserleben und Versorgungserfahrung.",
+    transfer:"Australien, englischsprachiges Sozialversicherungssystem; HLQ-Messmethode international validiert, Profile-Ansatz übertragbar."
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -1572,7 +1581,7 @@ const RADAR_FRISTEN = [["2026-10-19", "2026-10-06", "2026-10-15"], [], ["2026-10
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "26.09.2026";
+const NEWS_STAND = "27.09.2026";
 const NEWS = [
   {titel:"Stiftung Gesundheit: Drei Jahrzehnte Einsatz für verständliche Gesundheitsinformationen", datum:"2026-09-01", url:"https://www.monitor-versorgungsforschung.de/news/stiftung-gesundheit-drei-jahrzehnte-einsatz-fuer-verstaendliche-gesundheitsinformationen/"},
   {titel:"Gefährliche Fehlinformationen: Auf TikTok werden psychische Erkrankungen oft falsch dargestellt", datum:"2026-04-07", url:"https://www.monitor-versorgungsforschung.de/news/gefaehrliche-fehlinformationen-auf-tiktok-werden-psychische-erkrankungen-oft-falsch-dargestellt/"},
