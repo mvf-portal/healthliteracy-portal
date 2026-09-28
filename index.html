@@ -1501,71 +1501,62 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "27. Sept. 2026, 09:47 Uhr";
+const SNAP_DATE = "28. Sept. 2026, 06:01 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"Yonsei Med J", year:"2026", pmid:"42773494",
-    author:"Jeon K et al.", pubdate:"Okt. 2026",
+    journal:"BMJ Open", year:"2026", pmid:"42778243",
+    author:"Wang S et al.", pubdate:"23.09.2026",
     added:"23.09.2026",
-    title:"Herzrehabilitations-Schulung senkt Sterblichkeit nach Herzinfarkt deutlich",
-    sum:"Die Studie untersuchte anhand von Krankenkassendaten von 92.968 südkoreanischen Herzinfarkt-Patienten (2018–2022), wie strukturierte Schulung und Therapiesitzungen in der Rehabilitation auf Sterblichkeit und Krankenhauseinweisungen wirken.",
-    result:"85,5 % erhielten keine Rehabilitation. Alle Rehabilitationsgruppen zeigten niedrigere Sterblichkeit. Größter Effekt: Schulung + ≥4 Therapiesitzungen (HR 0,257, 95%-KI 0,123–0,539) oder ≥4 Sitzungen ohne Schulung (HR 0,291, 95%-KI 0,203–0,417). Schulungsbasierte Rehabilitation korrelierte zudem mit weniger kardiovaskulären Neuaufnahmen und Wiederinterventionen.",
-    transfer:"Südkorea, ähnliches Versicherungssystem; Struktur und Outcome-Tracking auf deutsches Gesundheitswesen übertragbar."
+    title:"Shared Decision-Making bei Schlaganfall: Umsetzungsformate und Barrieren",
+    sum:"Scoping Review von 17 Studien zu Shared Decision-Making (SDM) in der Schlaganfall-Akutbehandlung, Sekundärprävention und Entlassungsplanung.",
+    result:"SDM wurde über mehrere Schlaganfall-Prozesse hinweg angewendet mit variablen Umsetzungsformaten (papiergestützte Entscheidungshilfen, visuell, webbasiert, computergestützt). Einflussfaktoren identifiziert auf Patient-, Professionellen-, Werkzeug- und Organisations-Ebene. Evidenz zeigt potenziellen Nutzen, bleibt aber heterogen und begrenzt. Standardisierte Definitionen und Evaluationen fehlen.",
+    transfer:"International, aber USA-Studien eingeschlossen; Empfehlungen zu Definitionen und Messung systemübergreifend relevant"
   },
   {
-    journal:"Oral Maxillofac Surg", year:"2026", pmid:"42791420",
-    author:"Stephan D et al.", pubdate:"26.09.2026",
-    added:"25.09.2026",
-    title:"ChatGPT vereinfacht medizinische Berichte – Patienten verstehen mehr",
-    sum:"Die Studie untersuchte, ob ChatGPT komplexe medizinische Berichte (MRT, CT, OP-Berichte, Entlassungssummern) in verständlichere Fassungen für Patienten umwandeln kann und ob dies das Verständnis verbessert.",
-    result:"Vereinfachte Berichte erhielten signifikant höhere Lesbarkeitsindizes (Flesch Reading Ease 48,4 ± 5,0 vs. 22,9 ± 5,2; p &lt; 0,0001). Patienten beurteilten vereinfachte Texte als deutlich klarer und nützlicher (p &lt; 0,001). Die Verständnisgenauigkeit verbesserte sich markant (z. B. MRI 80,3% vs. 53,7%; p &lt; 0,001). Keine medizinischen Informationen gingen verloren.",
-    transfer:"Deutschland: Sprachgebunden; Anwendbarkeit auf deutsche Fachbegriffe und Dokumentationsstandards zu prüfen."
-  },
-  {
-    journal:"BMJ Glob Health", year:"2026", pmid:"42791046",
-    author:"Murray A et al.", pubdate:"25.09.2026",
-    added:"25.09.2026",
-    title:"Mentale Gesundheitsschulung für Schüler in Kambodscha und Vietnam: Co-Adaptation gelungen",
-    sum:"Die Studie beschreibt die partizipative Co-Adaption einer schulgestützten Intervention zur Mental Health Literacy für Jugendliche in zwei Ländern mit niedrigem/mittlerem Einkommen, unter Beteiligung von Schülern, Eltern, Lehrern und Stakeholdern.",
-    result:"Zentrale Adaptationen: Zwei Facilitatoren pro Sitzung (ein Lehrer, ein externer Provider, Rückfallehrer in Kambodscha); Peer-Co-Facilitation in einigen Sitzungen; Ergänzung neuer Themen (Internet, Essstörungen/Körperbild, Selbstverletzung/Suizid). Frühes und diverse Stakeholder-Engagement stärkte Co-Adaptationsprozess.",
-    transfer:"Kambodscha, Vietnam; LMIC-Kontext; partizipative Methodik und Kulturadaption sind systemunabhängig, Modell auf Deutschland übertragbar."
-  },
-  {
-    journal:"Nutrients", year:"2026", pmid:"42797080",
-    author:"Santos-López MF et al.", pubdate:"21.09.2026",
-    added:"26.09.2026",
-    title:"Virtuelle Ernährungsschulung für Nierenkranke: hohe Akzeptanz, machbar",
-    sum:"Die Studie entwickelte systematisch ein strukturiertes virtuelles Schulungsprogramm für erwachsene Patienten mit chronischer Nierenerkrankung Stadium 3–4 und prüfte dessen Machbarkeit anhand von Akzeptanz und Vollendungsraten.",
-    result:"Das Programm besteht aus 4 Sitzungen mit 10 kurzen Videos und 6 digitalen Materialien. 87 % der eingeladenen Patienten absolvierten das Programm und füllten Akzeptanzfragebögen aus. Mittlere Akzeptanzpunktzahl: 32 von 35 Punkten. Hohe Machbarkeit und Akzeptabilität demonstriert.",
-    transfer:"Systematische ADDIE-Methode und COM-B-Modell sind sprachsystemunabhängig; Implementierung in Deutschland analog möglich."
-  },
-  {
-    journal:"Nutrients", year:"2026", pmid:"42797065",
-    author:"Joo H et al.", pubdate:"20.09.2026",
-    added:"26.09.2026",
-    title:"Niedrigere Gesundheitskompetenz korreliert mit schlechterer Ernährungsqualität",
-    sum:"Die Studie analysierte an 5.353 koreanischen Erwachsenen den Zusammenhang zwischen Gesundheitskompetenz (10-Item-Instrument) und Ernährungsqualität (Korean Healthy Eating Index aus 24-h-Recall), mit Altersstratifizierung.",
-    result:"Rohe Differenz schien positiv, aber Altersadjustierung invertierte sie (β = −2,76; vollständig adjustiert β = −1,70, 95%-KI −2,66 bis −0,75). Höhere Odds für schlechteste Ernährungsterzile bei niedriger Kompetenz (OR = 1,37, 95%-KI 1,09–1,72; p = 0,007). Pro 1-SD-Anstieg der Gesundheitskompetenz: β = +0,77 (95%-KI 0,42–1,12). Assoziation stärker bei Männern.",
-    transfer:"Südkorea; Querschnittdesign schließt Kausalität aus; Befund zeigt Ungleichheit nach Bildung."
-  },
-  {
-    journal:"Farm Comunitarios", year:"2026", pmid:"42774024",
-    author:"Al-Anasweh Q et al.", pubdate:"15.10.2026",
+    journal:"Cancer Causes Control", year:"2026", pmid:"42776309",
+    author:"Arana-Chicas E et al.", pubdate:"23.09.2026",
     added:"23.09.2026",
-    title:"Patienten in Jordanien lesen Beipackzettel – aber nicht bei Polypharmaka",
-    sum:"Die Studie untersuchte an 343 jordanischen Patienten Einstellungen und Verhalten gegenüber Packungsbeilagen (Patient Information Leaflets) und identifizierte Prädiktoren für deren Lektüre.",
-    result:"Hohe Leseprävalenz: 87,2 %. Häufigste gelesene Abschnitte: Indikation (80,6 %), Nebenwirkungen (77,9 %), Anwendung (63,5 %). Höhere Wahrscheinlichkeit für Lektüre: weiblich, verheiratet, niedriges Einkommen (alle p &lt; 0,05). Polypharmaka assoziiert mit Nicht-Lesen (p &lt; 0,001). Hauptgründe für Nicht-Lesen: ausreichende ärztliche Information (52,3 %), ungeeignete Schriftgröße (29,5 %).",
-    transfer:"Jordanien (Mittlerer Osten); zeigt Ungleichheit nach Geschlecht, Einkommen und Medikamentenzahl; Schriftgrößen-Problem universal."
+    title:"Kulturelle Anpassung von Shared Decision-Making und Navigation für hispanische Lungenkrebsscreening-Teilnehmer",
+    sum:"Qualitative Studie mit 19 hispanischen Erwachsenen (50–77 Jahre, 68 % spanischsprachig) zu Wahrnehmungen von Lungenkrebsscreening und Shared Decision-Making für die kulturelle Adaption der TELESCOPE-Intervention.",
+    result:"Vier Themen identifiziert: (1) begrenzte Kenntnis von Lungenkrebsscreening; (2) Präferenz für klare und freundliche Kommunikation; (3) Besorgnis um Angst und Fatalismus; (4) Bedeutung kulturell relevanter Gestaltung. Diese Befunde sollen Kulturanpassung einer telemedizingestützten SDM-Intervention leiten.",
+    transfer:"USA, aber Befunde zur Kommunikationsgestaltung und Angstabbau gelten systemübergreifend; Sprachkompetenz systemgebunden"
   },
   {
-    journal:"BMC Health Serv Res", year:"2026", pmid:"42791541",
-    author:"Skoss R et al.", pubdate:"11.08.2026",
+    journal:"Front Public Health", year:"2026", pmid:"42798483",
+    author:"Tan J et al.", pubdate:"11.09.2026",
+    added:"26.09.2026",
+    title:"Patient-Aktivierung und eHealth Literacy beeinflussen Selbstmanagement bei koronarer Herzerkrankung",
+    sum:"Querschnittstudie mit 433 Patienten mit koronarer Herzerkrankung, die den Zusammenhang zwischen Patient-Aktivierung, eHealth Literacy und Selbstmanagement untersuchte.",
+    result:"Patient-Aktivierung korrelierte moderat positiv mit eHealth Literacy (r = 0,51; p &lt; 0,001) und stärker mit kombiniertem Selbstmanagement (r = 0,59; p &lt; 0,001). eHealth Literacy mediierte die Assoziation teilweise (indirekter Effekt = 0,043, 95%-CI [0,002; 0,088]; 9% des Gesamteffekts). Der direkte Pfad war substantiell wichtiger als der indirekte Pfad.",
+    transfer:"China, vergleichbare Erkrankungslast, Messinstrumente international etabliert"
+  },
+  {
+    journal:"Front Public Health", year:"2026", pmid:"42787455",
+    author:"Lv T et al.", pubdate:"10.09.2026",
     added:"25.09.2026",
-    title:"Eltern chronisch kranker Kinder: bessere Gesundheitskompetenz bedeutet weniger Stress",
-    sum:"Die Studie untersuchte mittels Clusteranalyse Gesundheitskompetenz-Profile (Health Literacy Questionnaire) von australischen Eltern von Kindern mit speziellen Gesundheitsbedürfnissen und deren Zusammenhang mit Erfahrungen der Versorgungsintegration und elterlichem Stress.",
-    result:"Drei distinct Health-Literacy-Profile identifiziert. Eltern mit höherer Gesundheitskompetenz berichteten bessere Erfahrungen mit koordinierter Versorgung und niedrigere wahrgenommene Stresslevels. Profile unterschieden sich nicht in Demografie, aber in Stresserleben und Versorgungserfahrung.",
-    transfer:"Australien, englischsprachiges Sozialversicherungssystem; HLQ-Messmethode international validiert, Profile-Ansatz übertragbar."
+    title:"Sprachmodelle für öffentliche Gesundheitsinformation zum Myokardinfarkt: Qualität und Verständlichkeit",
+    sum:"Vergleichende Bewertung von Antworten dreier Sprachmodelle (Gemini, Claude, ChatGPT) auf 25 Laienfragen zum Myokardinfarkt durch zwei Kardiologen mit validierten Qualitätsinstrumenten und Lesbarkeitsmetriken.",
+    result:"Signifikante Unterschiede in DISCERN (p &lt; 0,001) und EQIP (p &lt; 0,001) zwischen Modellen. Claude erzielte höhere DISCERN-Werte als Gemini und ChatGPT; alle zeigten schwache JAMA-Leistung (mangelnde Transparenz). Alle Modelle unterschritten die angestrebte Lesbarkeit (Klasse 6), erzeugten teilweise unvollständige oder potenziell schädliche Informationen. Sprachmodelle sind als eigenständige Patientenbildungs-Tools nicht geeignet.",
+    transfer:"China, aber Befunde zu Lesbarkeit und Transparenz für deutschsprachige Zielgruppen relevant; Sprachgebundenheit beachten"
+  },
+  {
+    journal:"Nurs Open", year:"2026", pmid:"42768417",
+    author:"Huang L et al.", pubdate:"Sept. 2026",
+    added:"22.09.2026",
+    title:"Selbsteingeschätzte Gesundheit und eHealth Literacy bei Pflegestudierenden korrelieren",
+    sum:"Querschnittsstudie mit 727 Pflegestudierenden aus einer chinesischen Fachschule zur Assoziation zwischen Selbstbewertung der Gesundheit und eHealth Literacy, adjustiert für Alter, Geschlecht, familiärer Sozioökonomie und akademischen Stress.",
+    result:"Nach Adjustierung für Kovariaten: Studierende mit schlechter Selbsteinschätzung der Gesundheit zeigten signifikant niedrigere eHealth-Literacy-Scores als solche mit guter Gesundheit. Auch Studierende mit fairer Selbstbewertung hatten niedrigere Scores, der Unterschied war aber erheblich kleiner. Assoziation statistisch signifikant, kausale Richtung ungeklärt.",
+    transfer:"China, aber Befund zur Bedeutung von Gesundheitswahrnehmung für digitale Kompetenz in Pflegeausbildung EU-weit relevant"
+  },
+  {
+    journal:"BMC Pregnancy Childbirth", year:"2026", pmid:"42778888",
+    author:"Aydın Çeli̇k S et al.", pubdate:"25.07.2026",
+    added:"23.09.2026",
+    title:"Klimawandelbildung erhöht Awareness, Angst und Hoffnung bei Schwangeren",
+    sum:"Randomisierte kontrollierte Studie mit 154 schwangeren Frauen (Interventionsgruppe n = 77, Kontrollgruppe n = 77) zu Effekten einer 60-minütigen Klimawandelschulung auf Bewusstsein, Angst und Hoffnung.",
+    result:"Interventionsgruppe zeigte signifikante Anstiege in Klimawandelangst, Awareness und Hoffnung nach der Schulung (p &lt; 0,001) mit großen Effektstärken (d = 1,30–2,20). Kontrollgruppe zeigte Angst- und Hoffnungsabnahme (p &lt; 0,05), nur marginale Awareness-Steigerung. Zwischen-Gruppen-Vergleiche zeigten signifikant höhere Posttest-Werte in der Interventionsgruppe (p &lt; 0,05). Wiederholte ANOVA: signifikante Gruppe-Zeit-Wechselwirkung (p &lt; 0,001).",
+    transfer:"Türkei, generalisierbar auf deutschsprachige Schwangerschaftsbetreuung; Schulungsformat systemübergreifend adaptierbar"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -1581,7 +1572,7 @@ const RADAR_FRISTEN = [["2026-10-19", "2026-10-06", "2026-10-15"], [], ["2026-10
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "27.09.2026";
+const NEWS_STAND = "28.09.2026";
 const NEWS = [
   {titel:"Stiftung Gesundheit: Drei Jahrzehnte Einsatz für verständliche Gesundheitsinformationen", datum:"2026-09-01", url:"https://www.monitor-versorgungsforschung.de/news/stiftung-gesundheit-drei-jahrzehnte-einsatz-fuer-verstaendliche-gesundheitsinformationen/"},
   {titel:"Gefährliche Fehlinformationen: Auf TikTok werden psychische Erkrankungen oft falsch dargestellt", datum:"2026-04-07", url:"https://www.monitor-versorgungsforschung.de/news/gefaehrliche-fehlinformationen-auf-tiktok-werden-psychische-erkrankungen-oft-falsch-dargestellt/"},
