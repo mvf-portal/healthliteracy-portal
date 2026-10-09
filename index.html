@@ -1350,7 +1350,7 @@
   <div class="ortsleiste-innen wrap">
     <a class="ort-name" href="./">
       <img src="logo/hub-icon.svg" alt="" width="34" height="34">
-      <span><small>KNOWLEDGE-HUB</small><b>Gesundheitskompetenz &amp; Health Literacy</b></span>
+      <span><small>KNOWLEDGE-HUB</small><b>Gesundheitskompetenz</b></span>
     </a>
     <div class="ort-links">
       <a href="#suche">Suche</a>
@@ -1401,7 +1401,7 @@
   <div class="kopfband">
     <div class="wrap">
       <p class="kopf-eyebrow">KNOWLEDGE-HUB</p>
-      <h1 class="serif">Gesundheitskompetenz &amp; Health Literacy
+      <h1 class="serif">Gesundheitskompetenz
         <span class="sub">Ein Zugang zu Studien, Instrumenten und Praxiswissen</span>
       </h1>
       <p class="lede" id="kopfLede">Ein Suchbegriff, alle Datenbanken. Geben Sie bitte unten einen Begriff ein — jede Datenbankkarte öffnet damit direkt die passende Live-Suche in einem neuen Tab. Deutschsprachige und internationale Fachdatenbanken, Messinstrumente der Gesundheitskompetenz, Entscheidungshilfen und Patienteninformation, Bildungs-, Kommunikations- und Bevölkerungsforschung, Studienregister und Wege zum Volltext an einem Ort. Jeden Tag werden die Suchergebnisse automatisch aktualisiert. Kuratiert von einer KI für die tägliche Recherchearbeit. Ein Service von Monitor Versorgungsforschung.</p>
@@ -1774,7 +1774,7 @@
 <script>
 // === CATS-BLOCK-START (themenspezifisch) ===
 const CATS = [
-  {id:"deutsch", h:14, num:"01", name:"Deutschsprachig: Gesundheitskompetenz & Health Literacy"},
+  {id:"deutsch", h:14, num:"01", name:"Deutschsprachig: Gesundheitskompetenz"},
   {id:"biblio", h:190, num:"02", name:"Bibliografische Datenbanken (international)"},
   {id:"literacy", h:25, num:"03", name:"Gesundheitskompetenz messen & vermitteln"},
   {id:"evidenz", h:210, num:"04", name:"Systematische Reviews & Evidenzsynthesen"},
@@ -1792,7 +1792,7 @@ const CATS = [
 // type: "live" = URL-Suche mit %s | "portal" = feste URL | "lic" = lizenzpflichtig (feste URL)
 // === DB-BLOCK-START (themenspezifisch) ===
 const DB = [
-  // 01 — Deutschsprachig: Gesundheitskompetenz & Health Literacy
+  // 01 — Deutschsprachig: Gesundheitskompetenz
   {c:"deutsch", n:"Monitor Versorgungsforschung", de:1, d:"Deutsche Fachzeitschrift für Politik, Praxis & Forschung der Versorgung — durchsuchbares Facharchiv.", t:"live", u:"https://www.monitor-versorgungsforschung.de/?s=%s&utm_source=hl-hub&utm_medium=referral&utm_campaign=healthliteracy-portal", b:0},
   {c:"deutsch", n:"LIVIVO (ZB MED)", de:1, d:"Größtes deutschsprachiges Suchportal der Lebenswissenschaften — Begriff nach Öffnen eingeben.", t:"portal", u:"https://www.livivo.de/"},
   {c:"deutsch", n:"German Medical Science (GMS)", de:1, d:"Open-Access-Portal deutscher medizinischer Fachgesellschaften (AWMF/ZB MED).", t:"portal", u:"https://www.egms.de/"},
@@ -2452,7 +2452,7 @@ function baueDoc(titel, untertitel, liste, mitDatum){
     + '<p style="margin:0 0 16pt;color:#555">' + htmlEsc(untertitel) + '</p>'
     + eintraege
     + '<p style="margin-top:20pt;font-size:8.5pt;color:#777">Quelle: Knowledge-Hub '
-    + 'Gesundheitskompetenz &amp; Health Literacy, healthliteracy.m-vf.de &ndash; ein Angebot von Monitor Versorgungsforschung. '
+    + 'Gesundheitskompetenz, healthliteracy.m-vf.de &ndash; ein Angebot von Monitor Versorgungsforschung. '
     + 'Studiendaten aus PubMed (U.S. National Library of Medicine).</p></body></html>';
 }
 
@@ -2461,7 +2461,7 @@ const CSV_MIME = 'text/csv;charset=utf-8';
 
 document.getElementById('dlAktuellDoc').addEventListener('click', ()=>{
   speichern('MVF-Gesundheitskompetenz-Hub_Neueste-Studien_'+dateiStempel()+'.doc',
-    baueDoc('Neu in PubMed: Gesundheitskompetenz & Health Literacy', 'Stand: '+alsKlartext(SNAP_DATE), STUDIES, false), DOC_MIME);
+    baueDoc('Neu in PubMed: Gesundheitskompetenz', 'Stand: '+alsKlartext(SNAP_DATE), STUDIES, false), DOC_MIME);
 });
 document.getElementById('dlAktuellCsv').addEventListener('click', ()=>{
   speichern('MVF-Gesundheitskompetenz-Hub_Neueste-Studien_'+dateiStempel()+'.csv',
@@ -3861,7 +3861,7 @@ function mtDoc(liste){
     + '<p style="margin:0 0 16pt;color:#555">' + htmlEsc(mtKopfzeile()) + '</p>'
     + eintraege
     + '<p style="margin-top:20pt;font-size:8.5pt;color:#777">Quelle: Knowledge-Hub '
-    + 'Gesundheitskompetenz &amp; Health Literacy, healthliteracy.m-vf.de &ndash; ein Angebot von Monitor Versorgungsforschung.</p>'
+    + 'Gesundheitskompetenz, healthliteracy.m-vf.de &ndash; ein Angebot von Monitor Versorgungsforschung.</p>'
     + '</body></html>';
 }
 

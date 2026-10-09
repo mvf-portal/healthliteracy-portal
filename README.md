@@ -1,6 +1,6 @@
-# Gesundheitskompetenz & Health Literacy · Rechercheportal
+# Gesundheitskompetenz · Rechercheportal
 
-Ein Rechercheportal zum Themenfeld **Gesundheitskompetenz & Health Literacy**: 75 Datenbanken in 10 Rubriken,
+Ein Rechercheportal zum Themenfeld **Gesundheitskompetenz**: 75 Datenbanken in 10 Rubriken,
 davon 36 mit Live-Suche, dazu eine täglich aus PubMed kuratierte Studienauswahl mit
 deutschen Zusammenfassungen.
 

@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Projekt
 
-„Knowledge-Hub Gesundheitskompetenz" — ein Rechercheportal zum Themenfeld Gesundheitskompetenz & Health Literacy. Ein Angebot von **Monitor Versorgungsforschung** (Betreiber: eRelation AG – Content in Health, Bonn).
+„Knowledge-Hub Gesundheitskompetenz" — ein Rechercheportal zum Themenfeld Gesundheitskompetenz. Ein Angebot von **Monitor Versorgungsforschung** (Betreiber: eRelation AG – Content in Health, Bonn).
 
 Live: https://healthliteracy.m-vf.de/
 
