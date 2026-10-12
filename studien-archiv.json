@@ -1,5 +1,83 @@
 [
  {
+  "pmid": "42859872",
+  "journal": "Inquiry",
+  "year": "2026",
+  "author": "Qi MH et al.",
+  "pubdate": "11.10.2026",
+  "added": "11.10.2026",
+  "transfer": "China (CHARLS 2020), aber Mechanismus (digitale Kompetenz→Sozialaktivität→Gesundheit) in Alterungskontexten international relevant.",
+  "title": "Digitale Kompetenz fördert Gesundheit älterer Menschen über Sozialbeziehungen",
+  "sum": "Querschnittstudie mit chinesischen Daten (n nicht genannt) zur Assoziation zwischen digitaler Literacy und physischer/psychischer Gesundheit, mit Sozialinteraktion als Mediator (Kausalitätsrahmen: digitale Technologie→Sozialbeziehungen→Gesundheit).",
+  "result": "Digitale Literacy war signifikant positiv mit physischer und psychischer Gesundheit assoziiert; Sozialinteraktion mediierte diese Assoziation bedeutsam. Heterogenitätsanalysen zeigten geschlechtsspezifische Muster: bei Männern Assoziation zur physischen Gesundheit signifikant, bei Frauen zur psychischen Gesundheit; urbaner/ruraler Status hatte keinen signifikanten Unterschied.",
+  "aufgenommen": "2026-10-12"
+ },
+ {
+  "pmid": "42859312",
+  "journal": "Sleep Breath",
+  "year": "2026",
+  "author": "Eriş Ş et al.",
+  "pubdate": "10.10.2026",
+  "added": "10.10.2026",
+  "transfer": "Türkei, aber RCT-Design und strukturierte digitale Schulung sind systemunabhängig übertragbar.",
+  "title": "Webgestützte Schulung verbessert Symptomkontrolle bei häuslicher Beatmung",
+  "sum": "Randomisierte Studie zur Wirkung einer webgestützten Schulung auf NIV-bezogene Nebenwirkungen und Schlafqualität bei COPD-Patienten mit häuslicher Heimbeatmung (n=75).",
+  "result": "In der Interventionsgruppe sanken die Schlafstörungen (Insomnia Severity Index) signifikant stärker ab als in der Kontrolle (p<0,001, η²p=0,352); bei Woche 8 zeigten sich signifikante Unterschiede zwischen den Gruppen (p<0,001, η²p=0,753 für Gesamt-S³-NIV-Scores). Webgestützte Bildung unterstützte die Symptombewältigung und Patientenanpassung nachweislich.",
+  "aufgenommen": "2026-10-12"
+ },
+ {
+  "pmid": "42859245",
+  "journal": "Support Care Cancer",
+  "year": "2026",
+  "author": "Cheng L et al.",
+  "pubdate": "10.10.2026",
+  "added": "10.10.2026",
+  "transfer": "China, aber evidenzbasierte Schulungsstruktur und schriftliche Materialien sind kulturübergreifend adaptierbar.",
+  "title": "Ernährungsschulung reduziert Schlafstörungen unter Chemotherapie",
+  "sum": "RCT zur Wirkung einer 12-wöchigen Schulung zu entzündungshemmender Ernährung auf Schlafqualität bei 132 Brustkrebspatienten unter Chemotherapie.",
+  "result": "Im Kompleteranalyse-Datensatz zeigten 49,2% der Interventionsgruppe vs. 78,9% der Kontrolle Schlafstörungen (p<0,001); PSQI-Score sank um β=-2,10 (95%-KI: -3,01 bis -1,18; p<0,001), Lebensqualität verbesserte sich um β=14,07 (95%-KI: 8,61–19,52; p<0,001). Strukturierte Patientenschulung mit klaren Inhalten änderte Verhalten messbar.",
+  "aufgenommen": "2026-10-12"
+ },
+ {
+  "pmid": "42855688",
+  "journal": "BMC Public Health",
+  "year": "2026",
+  "author": "Ibrahim HS et al.",
+  "pubdate": "09.10.2026",
+  "added": "09.10.2026",
+  "transfer": "Ägypten, aber etablierte Instrumente und Befund (Health Literacy→Aging Outcomes) für Europa/Deutschland adaptierbar.",
+  "title": "Gesundheitskompetenz stärkt erfolgreiches Altern bei älteren Patienten",
+  "sum": "Querschnittstudie (n=246, 123 chronisch krank, 123 gesund, Alter ≥65 Jahre) zur Assoziation zwischen Gesundheitskompetenz und erfolgreichem Altern mittels Health Literacy Questionnaire und Successful Aging Scale.",
+  "result": "Patienten mit chronischen Erkrankungen zeigten signifikant niedrigere Gesundheitskompetenz- und erfolgreiches-Altern-Scores als Kontrollen (p<0,001). Gesundheitskompetenz korrelierte positiv mit erfolgreichem Altern (r=0,612, p<0,001) und war der stärkste unabhängige Prädiktor in der Regressionsanalyse; höhere Bildung und Einkommen verbesserten erfolgreiches Altern, Alter, ländlicher Wohnort und Rauchen verschlechterten es.",
+  "aufgenommen": "2026-10-12"
+ },
+ {
+  "pmid": "42823728",
+  "journal": "Harm Reduct J",
+  "year": "2026",
+  "author": "Paasch R et al.",
+  "pubdate": "23.09.2026",
+  "added": "02.10.2026",
+  "transfer": "Deutschland, deutschsprachige Fitnessstudio-Population; Typologien für zielgruppengenaue Harm-Reduction-Kommunikation direkt einsetzbar.",
+  "title": "Zielgruppengerechte Risikokommunikation zu Dopingmitteln in Fitnessstudios",
+  "sum": "Querschnittstudie (n=550 Freizeitsportler) zur Replikation einer 7-Cluster-Typologie von Einstellungen zu Dopingmitteln mittels Theory of Planned Behavior und Health Belief Model, mit qualitativen Illustrationen.",
+  "result": "Sieben heterogene Motivations- und kognitiv-motivationale Profile identifiziert (Silhouetten-Index=0,22, Bootstrap-Stabilität moderat); signifikante Assoziationen mit Anabolika- und Testosterongebrauch, aber nicht mit Wachstumshormonen. Profile zeigen 'Werteabstainer', 'ambivalente Risikonehmer' und 'Leistungsrationaliserer' – heterogene Präventionebedarfe statt Risikokontinuum.",
+  "aufgenommen": "2026-10-12"
+ },
+ {
+  "pmid": "42812281",
+  "journal": "Front Public Health",
+  "year": "2026",
+  "author": "Li J et al.",
+  "pubdate": "15.09.2026",
+  "added": "30.09.2026",
+  "transfer": "China, aber Evaluationsmethodik (Sicherheit/Genauigkeit/Empathie/Transparenz) für LLM-basierte Patienteninformation international anwendbar.",
+  "title": "Künstliche Sprachmodelle liefern präzise, aber unpersonalisierte Patienteninformationen",
+  "sum": "Vergleichende Bewertung von sechs Large Language Models (ChatGPT, Claude, DeepSeek, Gemini, Grok, Qwen) bei der Beantwortung von 40 Patientenfragen zu Achalasie (n=240 Responses) anhand von Sicherheit, Genauigkeit, Empathie, Informationsqualität und Lesbarkeit.",
+  "result": "27 von 240 Responses (11,3%) als potenziell unsicher bewertet; Genauigkeit unterschied sich signifikant zwischen Modellen (kleiner Effekt). Größere Unterschiede in Empathie, Informationszuverlässigkeit und Lesbarkeit: ChatGPT 5.5 und Gemini 3.1 Pro Thinking erreichten höhere Empathie-Scores, Claude Opus 4.7 zeigte höhere Lesbarkeit-Schwierigkeit. JAMA-Benchmark-Scores waren insgesamt niedrig (mangelhafte Quellenangaben).",
+  "aufgenommen": "2026-10-12"
+ },
+ {
   "pmid": "42847392",
   "journal": "Ann Behav Med",
   "year": "2026",
@@ -2236,6 +2314,19 @@
   "aufgenommen": "2026-09-13"
  },
  {
+  "pmid": "42723856",
+  "journal": "Front Public Health",
+  "year": "2026",
+  "author": "Xu M et al.",
+  "pubdate": "27.08.2026",
+  "added": "11.09.2026",
+  "transfer": "China – Demographische und Systemunterschiede, aber Heterogenität eHealth-Literacy universell relevant",
+  "title": "Gesundheitskompetenz bei älteren Patienten mit Herz-Kreislauf-Erkrankungen: Latente Profilanalyse",
+  "sum": "Querschnittsstudie mit 459 älteren Patienten mit Herz-Kreislauf-Erkrankungen zur Erfassung von eHealth-Literalität und assoziierten Faktoren mittels latenter Profilanalyse.",
+  "result": "Mittlere eHEALS-Gesamtwerte 25,16 ± 5,59. Drei Gruppen: niedrig (28,3 %), mittel (50,3 %), hoch (21,4 %). Höhere Bildung, häufigere Internetnutzung, regelmäßige Bewegung und wahrgenommene soziale Unterstützung waren positiv assoziiert; hohes Alter und Komorbiditäten negativ.",
+  "aufgenommen": "2026-09-13"
+ },
+ {
   "pmid": "42715468",
   "journal": "Braz J Med Biol Res",
   "year": "2026",
@@ -2259,19 +2350,6 @@
   "title": "Wie treffen Onkologen Therapieentscheidungen in komplexen Situationen?",
   "sum": "Qualitative Studie mit 12 schwedischen Fachleuten zur Erfassung ihrer Erfahrungen bei der Therapieauswahl in späten Linien bei metastasiertem Brustkrebs unter Bedingungen unklarer Evidenz.",
   "result": "Fünf Themen: Ärzte nutzen Fachkompetenz und Erfahrung, laden Patienten zur Partizipation ein, unterstützen autonome Entscheidungen und holen kollegiale Ratschläge ein. Ärzte sind aktive Entscheidungsträger, nicht neutrale Vermittler; sie teilen ihre Wertungen mit und tragen Verantwortung.",
-  "aufgenommen": "2026-09-13"
- },
- {
-  "pmid": "42723856",
-  "journal": "Front Public Health",
-  "year": "2026",
-  "author": "Xu M et al.",
-  "pubdate": "27.08.2026",
-  "added": "11.09.2026",
-  "transfer": "China – Demographische und Systemunterschiede, aber Heterogenität eHealth-Literacy universell relevant",
-  "title": "Gesundheitskompetenz bei älteren Patienten mit Herz-Kreislauf-Erkrankungen: Latente Profilanalyse",
-  "sum": "Querschnittsstudie mit 459 älteren Patienten mit Herz-Kreislauf-Erkrankungen zur Erfassung von eHealth-Literalität und assoziierten Faktoren mittels latenter Profilanalyse.",
-  "result": "Mittlere eHEALS-Gesamtwerte 25,16 ± 5,59. Drei Gruppen: niedrig (28,3 %), mittel (50,3 %), hoch (21,4 %). Höhere Bildung, häufigere Internetnutzung, regelmäßige Bewegung und wahrgenommene soziale Unterstützung waren positiv assoziiert; hohes Alter und Komorbiditäten negativ.",
   "aufgenommen": "2026-09-13"
  },
  {
