@@ -1892,62 +1892,71 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "21. Okt. 2026, 06:22 Uhr";
+const SNAP_DATE = "22. Okt. 2026, 06:01 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
-    journal:"JMIR Med Inform", year:"2026", pmid:"42868277",
-    author:"Zhang X et al.", pubdate:"13.10.2026",
-    added:"13.10.2026",
-    title:"Vorhersagemodell identifiziert Bevölkerungsgruppen mit niedriger Gesundheitskompetenz",
-    sum:"Entwicklung und externe Validierung eines Nomogramm-Modells zur Vorhersage niedriger Health Literacy in einer Bevölkerung von 56.340 Einwohnern (2023) und 2024-Validierungsdaten aus der chinesischen Provinz Zhejiang.",
-    result:"Nomogramm-Modelle zeigten robuste Stabilität: AUC 0,821 (intern) und 0,814 (extern validiert); Sensitivität und Spezifität &gt;60 % bzw. &gt;75 %. Fünf Kerndeterminanten identifiziert: Bildungsstand, Alter, Haushaltseinkommen, Rauchen und Beruf. Positiver und negativer prädiktiver Wert beide &gt;60 %.",
-    transfer:"China – Faktor-Struktur (Bildung, Einkommen, Alter) international vergleichbar; deutsches System erfordert Validierung"
+    journal:"Womens Health (Lond)", year:"2026", pmid:"42842352",
+    author:"Chéileachair FN et al.", pubdate:"07.10.2026",
+    added:"07.10.2026",
+    title:"Menstruelle Gesundheitskompetenz: Definitionen und Forschungsbedarf",
+    sum:"Kommentarbeitrag, der Inkonsistenzen in Definitionen und Messung von menstrueller Gesundheitskompetenz analysiert und einen konzeptionellen Rahmen entwickelt.",
+    result:"Zentrale Befunde: Keine Konsensdefinition für menstruelle Gesundheitskompetenz existiert, obwohl viele Studien Verbesserungen fordern; Lücken bestehen von Menarche bis Menopause; breite Stigmatisierung erschwert Kompetenzentwicklung. Empfehlung: Universelle Definition erforderlich, die strukturelle, individuelle und stigma-bezogene Dimensionen verbindet, um Forschung und Praxis zu leiten.",
+    transfer:"Großbritannien-basiert; Konzept und Definitonslücke international relevant, kulturabhängig bei Stigma-Ebene"
   },
   {
-    journal:"Front Public Health", year:"2026", pmid:"42898274",
-    author:"Liu Y et al.", pubdate:"05.10.2026",
-    added:"20.10.2026",
-    title:"Gesundheitskompetenz verbessert Lebensqualität bei Leberzirrhose unabhängig von Ernährung",
-    sum:"Querschnittstudie an 202 Patienten mit dekompensierter Leberzirrhose zur Assoziation von Health Literacy, Ernährungsstatus und Lebensstilfaktoren mit gesundheitsbezogener Lebensqualität.",
-    result:"Health Literacy war unabhängig mit Lebensqualität assoziiert und erhöhte die Erklärungskraft des Modells signifikant (R²-Anstieg). Kommunikationsfähigkeit (B = −0,177, p = 0,007), körperliche Aktivität und Schlafqualität waren unabhängige Prädiktoren für die physische und psychische Dimension.",
-    transfer:"Chinesische Klinikdaten; Beziehungen zwischen Health Literacy und Selbstmanagement sind systemübergreifend relevant"
-  },
-  {
-    journal:"Front Public Health", year:"2026", pmid:"42876704",
-    author:"Liu L et al.", pubdate:"30.09.2026",
+    journal:"Front Public Health", year:"2026", pmid:"42876618",
+    author:"Luo W et al.", pubdate:"30.09.2026",
     added:"15.10.2026",
-    title:"KI-gestützte Patientenschulung vor Magen-Darm-Operationen senkt Angst und verbessert eHealth-Literacy",
-    sum:"Protokoll einer randomisierten kontrollierten Studie mit 120 Patienten zur WeChat-basierten, von Expertenwissen kontrollierten KI-Schulungsintervention (3 Monate) gegen Standardberatung vor gastroenterologischen Eingriffen.",
-    result:"Primärer Endpunkt: Angst (Hospital Anxiety and Depression Scale-Angst). Sekundäre Endpunkte: Depression, wahrgenommene soziale Unterstützung, Selbstwirksamkeit, gesundheitsbezogene Lebensqualität und eHealth-Literacy. Outcome-Messung zu Baseline, Entlassung, 3 und 6 Monaten; Analyse nach Intention-to-treat.",
-    transfer:"China – Patientenedukation digital; systemgebunden an WeChat-Infrastruktur; Konzept der Expertenkontrolle auf deutsche Plattformen adaptierbar"
+    title:"Nurses als Gesundheitskompetenz-Lotsen in der KI-gestützten Triage",
+    sum:"Perspektivarbeit, die die Rolle von Pflegekräften in digitalen Triage-Systemen analysiert und ein Modell zur Vermittlung zwischen Algorithmen und Patientenverständnis entwickelt.",
+    result:"Vier Funktionen wurden identifiziert: Interpretation (Verständlichkeit von KI-Output), emotionale Kalibrierung, klinische Verifikation von Empfehlungen und Begleitung durch komplexe Versorgungspfade. Das Modell betont, dass Pflegekräfte nicht Validatoren von Maschinenoutput sein sollten, sondern Vermittler, die Sicherheit und Gesundheitsgleichheit wahren.",
+    transfer:"China-Szenario, prinzipiell systemübergreifend relevant; Pflegerolle in Triagenetzwerken vergleichbar"
   },
   {
-    journal:"Rev Med Chil", year:"2026", pmid:"42899611",
-    author:"Cerón-Meza R et al.", pubdate:"Aug. 2026",
-    added:"20.10.2026",
-    title:"Ernährungsschulung mit eiweißarmer Diät bremst Nierenerkrankung",
-    sum:"Narrative Übersicht von klinischen Studien (2015–2026) zur Wirkung von Ernährungsedukation und proteinarmer Diät auf Inzidenz und Progression chronischer Nierenerkrankungen in allen Stadien ohne Nierenersatztherapie.",
-    result:"Interventionen zur proteinarmen Ernährung verzögerten CKD-Progression, besonders in frühen Stadien, durch Reduktion stickstoffhaltiger Abbauprodukte. Jedes zusätzliche Gramm Protein war mit jährlichem GFR-Rückgang assoziiert. Strukturierte Ernährungsberatung mit kontinuierlicher Überwachung führte zu partieller Erhaltung der Nierenfunktion.",
-    transfer:"Mexikanische Klinikdaten; Ernährungsberatung und Monitoring sind in deutschem Versorgungskontext etabliert"
+    journal:"Front Public Health", year:"2026", pmid:"42835181",
+    author:"Wang Z et al.", pubdate:"21.09.2026",
+    added:"06.10.2026",
+    title:"Digitale Gesundheitskompetenz reduziert psychische Belastung durch besseren Schlaf",
+    sum:"Quasiexperimentelle Studie an 407 Studierenden mit Mediationsmodell: digitale Gesundheitskompetenz → Internetabhängigkeit → Schlafqualität → psychische Gesundheit.",
+    result:"Positive Beziehung zwischen digitaler Gesundheitskompetenz und psychischer Gesundheit nachgewiesen. Indirekter Gesamteffekt über die Kette 0,6304; Internetabhängigkeit und Schlafqualität waren signifikante Mediatoren. Intervention durch Verbesserung digitaler Kompetenz könnte Schlafqualität und psychische Gesundheit verbessern.",
+    transfer:"China-Setting, aber Mechanismus (Mediatorenmodell) systemunabhängig; digitale Kompetenz als Interventionsziel relevant"
   },
   {
-    journal:"BMC Public Health", year:"2026", pmid:"42897531",
-    author:"Šakare EA et al.", pubdate:"24.07.2026",
-    added:"20.10.2026",
-    title:"Digitale Interventionen zur Gesundheitskompetenz in der EU: Mobile Apps und Entscheidungshilfen wirksam",
-    sum:"Systematische Übersicht von 26 europäischen Studien (2018–2024) zur Wirkung digitaler Kommunikationsmittel auf Health Literacy, Wissen, Selbstwirksamkeit und Gesundheitsstatus.",
-    result:"Mobile Apps verbesserten Gesundheitsstatus mit andauernden Effekten; Entscheidungshilfen zeigten Potenzial zur Wissensverbesserung. Digitale Lerntools und Multimedia-Interventionen waren weitgehend unwirksam. Multi-Komponenten-Interventionen waren nicht wirksamer als Einzel-Interventionen. Personen mit niedrigerem sozioökonomischem Status profitierten gleichermaßen.",
-    transfer:"EU-Daten, direkt auf deutsches Versicherungssystem übertragbar"
+    journal:"Front Public Health", year:"2026", pmid:"42827804",
+    author:"Hassan AM", pubdate:"18.09.2026",
+    added:"03.10.2026",
+    title:"Digitale Gesundheitskompetenz gegen Desinformation: Curriculare Agenda für Universitäten",
+    sum:"Perspektivarbeit zur Verankerung digitaler Gesundheitskompetenz im höheren Bildungswesen Somalias als institutionelle Verantwortung und individuelle Kompetenz gegen Desinformation und KI-Risiken.",
+    result:"Implementierungsagenda mit fünf Säulen: kritische Informationsappraisal, Resilienz gegen Desinformation, verantwortungsvoller KI-Einsatz, Datenschutz, sichere Eskalation; unterstützt durch Curriculumintegration, institutionelle Informationspfade, lokal relevante Evaluierung und Kapazitätsaufbau bei Lehrenden. Empfehlung: Jenseits von Selbstbericht-Umfragen zu leistungsgestützten Aufgaben und Interventionsevaluierung übergehen.",
+    transfer:"Somalia-Kontext schwach übertragbar; aber Rahmen für Curriculum und digitale Äquität prinzipiell relevant"
   },
   {
-    journal:"Soins Psychiatr", year:"2026", pmid:"42476710",
-    author:"Lefort-Picard M et al.", pubdate:"06.07.2026",
-    added:"20.07.2026",
-    title:"Therapeutische Patientenschulung stärkt Autonomie bei Borderline-Persönlichkeitsstörung",
-    sum:"Fünfjähriges Patientenbildungsprogramm (Programme d'Éducation Thérapeutique) am Centre Hospitalier du Rouvray für Personen mit Borderline-Persönlichkeitsstörung, basierend auf integrativer therapeutischer Herangehensweise.",
-    result:"Das Programm zielt auf Stärkung innerer Ressourcen und Autonomie zur Erleichterung der Reintegration in soziales, emotionales und berufliches Leben ab. Kernfaktoren: integrativer therapeutischer Ansatz, Fokus auf Empowerment und Selbstmanagement, langfristige Betreuung als Kontinuität.",
-    transfer:"Frankreich – Psychische Erkrankung; ETP-Modell mit deutscher Tradition; Kernprinzipien auf deutsches System übertragbar"
+    journal:"Arch Psychiatr Nurs", year:"2026", pmid:"42863935",
+    author:"Durar E et al.", pubdate:"27.07.2026",
+    added:"12.10.2026",
+    title:"Psychoedukation in der psychiatrischen Pflege: Wachstum und Forschungslücken",
+    sum:"Bibliometrische Analyse von 225 Publikationen (1998–2025) zur Psychoedukation in der psychiatrischen Pflege weltweit.",
+    result:"Jährliche Wachstumsrate 11%; 743 Autoren, durchschnittlich 12,8 Zitate pro Publikation. USA führt mit 22,2% der Publikationen, gefolgt von Türkei. Hauptfindung: Psychoedukation ist etabliert für Schizophrenie, Depression und bipolare Störung, aber Lücken bestehen bei Angehörigenschulung, Selbstmanagement und Programmen für Kinder/Jugendliche.",
+    transfer:"Internationale Analyse; empirische Programme liegen vor, aber systematische Evaluierung im deutschsprachigen Raum fehlt"
+  },
+  {
+    journal:"BMC Public Health", year:"2026", pmid:"42902196",
+    author:"Muzungu G et al.", pubdate:"25.07.2026",
+    added:"21.10.2026",
+    title:"Psychische Gesundheitskompetenz bei Studierenden: Wissens- und Wissenslücken",
+    sum:"Querschnittsstudie an 365 nicht-medizinischen Studierenden an der Universität Makerere, Uganda, zur psychischen Gesundheitskompetenz mit standardisiertem Fragebogen.",
+    result:"77,3% hatten moderate Kenntnisse zur psychischen Gesundheit, aber nur 12,3% hohe Gesundheitskompetenz; 37,8% positive Wahrnehmungen, 13,7% positive Einstellungen gegenüber Menschen mit psychischen Störungen. Assoziation mit weiblichem Geschlecht (aOR 0,422; p=0,014) und Vorgeschichte psychischer Störungen (aOR 2,485; p=0,012).",
+    transfer:"Uganda-Setting; Befund zeigt Implementierungslücke bei Curriculumintegration, nicht auf deutsches System übertragbar"
+  },
+  {
+    journal:"Oral Surg Oral Med Oral Pathol Oral Radiol", year:"2026", pmid:"42823233",
+    author:"Zhang R et al.", pubdate:"07.07.2026",
+    added:"01.10.2026",
+    title:"Verständlichkeit von KI-generierten Patienteninformationen: ChatGPT vs. DeepSeek",
+    sum:"Vergleichende Bewertung von Antworten zweier KI-Systeme (ChatGPT-4, DeepSeek-v3) auf 23 häufig gestellte Patientenfragen zu Lichen planus durch Expertenpanels in fünf Dimensionen.",
+    result:"DeepSeek-v3 überlegen bei Umfassendheit (4,65±0,37 vs. 4,04±0,54; p&lt;0,001), Logik (4,41±0,32 vs. 4,03±0,35; p&lt;0,001) und Fairness (4,34±0,33 vs. 4,03±0,27; p&lt;0,001); ChatGPT-4 besser bei Einfachheit (4,25±0,31 vs. 4,04±0,28; p=0,034). DeepSeek-v3 leicht überlegen bei Genauigkeit (4,49±0,38 vs. 4,22±0,34; p=0,025). Kombinieren beider Modelle könnte Patientenverständnis verbessern.",
+    transfer:"Neuseeland-Studie, sprachunabhängiger Vergleich; Befund zu Verständlichkeit systemübergreifend relevant"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
@@ -1963,7 +1972,7 @@ const RADAR_FRISTEN = [["2026-10-20", "2026-10-20", "2026-12-31", "2027-01-07"],
 
 // Beitraege aus dem MVF-Archiv zum Thema — taeglich von scripts/newsfeed.py
 // === NEWS-BLOCK-START (taeglich von GitHub Actions ersetzt) ===
-const NEWS_STAND = "21.10.2026";
+const NEWS_STAND = "22.10.2026";
 const NEWS = [
   {titel:"Männergesundheit: Nur jeder Dritte fühlt sich gut informiert", datum:"2026-09-30", url:"https://www.monitor-versorgungsforschung.de/news/maennergesundheit-nur-jeder-dritte-fuehlt-sich-gut-informiert/"},
   {titel:"Gefährliche Fehlinformationen: Auf TikTok werden psychische Erkrankungen oft falsch dargestellt", datum:"2026-04-07", url:"https://www.monitor-versorgungsforschung.de/news/gefaehrliche-fehlinformationen-auf-tiktok-werden-psychische-erkrankungen-oft-falsch-dargestellt/"},
