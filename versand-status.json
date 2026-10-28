@@ -1,31 +1,32 @@
 {
  "hub": "Knowledge-Hub Gesundheitskompetenz",
  "domain": "healthliteracy.m-vf.de",
- "datum": "2026-10-27",
+ "datum": "2026-10-28",
  "stand": "terminiert",
- "titel": "MVF Gesundheitskompetenz-Newsletter 27.10.2026",
- "betreff": "Neueste Studien - Gesundheitskompetenz – 27. Oktober 2026",
- "anzahl": 6,
+ "titel": "MVF Gesundheitskompetenz-Newsletter 28.10.2026",
+ "betreff": "Neueste Studien - Gesundheitskompetenz – 28. Oktober 2026",
+ "anzahl": 7,
  "pmids": [
-  "42931132",
-  "42929459",
-  "42928226",
-  "42928169",
-  "42924444",
-  "42920137"
+  "42944729",
+  "42943018",
+  "42937119",
+  "42936994",
+  "42936026",
+  "42930611",
+  "42929188"
  ],
- "kampagne": "https://us6.admin.mailchimp.com/campaigns/edit?id=9099561",
- "termin_utc": "2026-10-27T09:00:00+00:00",
+ "kampagne": "https://us6.admin.mailchimp.com/campaigns/edit?id=9099582",
+ "termin_utc": "2026-10-28T09:00:00+00:00",
  "empfaenger": 22,
- "listengroesse": 5887,
+ "listengroesse": 5883,
  "beanstandungen": [],
  "aussortiert": [],
  "pool": {
   "geholt": 220,
-  "bekannt": 187,
-  "pool": 27,
-  "gewaehlt": 6,
-  "neu": 6
+  "bekannt": 174,
+  "pool": 28,
+  "gewaehlt": 7,
+  "neu": 7
  },
  "rubriken": {
   "news": "c3fe10419638995f"
