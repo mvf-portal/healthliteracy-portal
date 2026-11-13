@@ -1,5 +1,44 @@
 [
  {
+  "pmid": "43021105",
+  "journal": "BMC Pregnancy Childbirth",
+  "year": "2026",
+  "author": "Muhafi̇z EN et al.",
+  "pubdate": "18.08.2026",
+  "added": "12.11.2026",
+  "transfer": "Türkei, vergleichbares Mehrheitssystem; Effekte von strukturierter Patientenaufklärung sind sprachübergreifend robust.",
+  "title": "Strukturierte Impfaufklärung senkt Impfskepsis und steigert Impfkompetenz bei Schwangeren",
+  "sum": "Randomisierte kontrollierte Studie mit 85 Schwangeren in der Türkei, die untersucht, ob face-to-face-Schulung mit Leitfaden die Impfhesitanz und Impfliteracy bei Schwangeren reduziert.",
+  "result": "Impfhesitanz-Score sank in der Interventionsgruppe signifikant stärker ab als in der Kontrollgruppe (p < 0,001); Impfliteracy-Score stieg in der Interventionsgruppe signifikant an (p < 0,001). Effekte blieben in der Nachkontrolle nach drei Wochen bestehen. Die strukturierte Schulung reduzierte Impfskepsis und verbesserte das Impfverständnis nachweislich.",
+  "aufgenommen": "2026-11-13"
+ },
+ {
+  "pmid": "43018261",
+  "journal": "J Health Commun",
+  "year": "2026",
+  "author": "Lee T et al.",
+  "pubdate": "12.11.2026",
+  "added": "12.11.2026",
+  "transfer": "Südkorea; Methode der Co-Kreation mit Bürgern ist auf deutsche Warn- und Risikokommunikation direkt übertragbar.",
+  "title": "Gemeinsame Gestaltung von Katastrophenalarmen verbessert Verständnis und Reaktion der Bevölkerung",
+  "sum": "Qualitative Studie mit Living-Lab-Ansatz in Seoul, die untersucht, wie Bürger und Experten gemeinsam Katastrophenalarme für Klimaresilienz und öffentliche Gesundheit verbessern können.",
+  "result": "Bürger empfanden bestehende Alarme als nicht relevant (Desensibilisierung), mit unzureichenden Informationen. Co-Kreation identifizierte vier Kernbedarf: verbesserte Glaubwürdigkeit, informationsspezifische Inhalte, erhöhte Merklichkeit und Kontextrelevanz. Partizipativ entwickelte Botschaften zeigten höhere Akzeptanz und Handlungsbereitschaft.",
+  "aufgenommen": "2026-11-13"
+ },
+ {
+  "pmid": "43018254",
+  "journal": "J Health Commun",
+  "year": "2026",
+  "author": "Xu YA et al.",
+  "pubdate": "12.11.2026",
+  "added": "12.11.2026",
+  "transfer": "USA, aber Prinzip der kombinierten Automatisierung mit personalisierten Touchpoints ist systemübergreifend anwendbar.",
+  "title": "Persönliche Botschaften steigern Studienretention bei jungen Erwachsenen stärker als automatisierte Erinnerungen",
+  "sum": "Studie zur Evaluation adaptiver kommunikativer Schichtungsstrategien (personalisierte Nachrichten, Willkommensvideos, Memes) in einer Langzeitintervention mit jungen Erwachsenen in den USA.",
+  "result": "Mit adaptiven Schichten erhöhte sich die Fragebogenvollständigung nach 6 Monaten von 60,51% auf 76,09% (p = 0,01) und nach 9 Monaten von 65,64% auf 78,08% (p = 0,05). Effekt war stärker bei Schülern öffentlicher Schulen (Anstieg von 50,05% auf 75,95%, p = 0,03); private Schulen zeigten Deckeneffekt.",
+  "aufgenommen": "2026-11-13"
+ },
+ {
   "pmid": "43017591",
   "journal": "Int J Chron Obstruct Pulmon Dis",
   "year": "2026",
@@ -10,6 +49,32 @@
   "title": "Wissen über Krankheitsverlauf erhöht Medikamentenadhärenz bei COPD",
   "sum": "Die Studie untersuchte, welche Wissensdomänen der COPD-Erkrankung mit verbesserter Inhalator-Adhärenz nach standardisierter Patientenedukation korrelieren.",
   "result": "Bei 894 Patienten zeigte sich: Nur erhöhtes epidemiologisches Wissen (Krankheitsverlauf, Langzeitrisiken) war unabhängig mit besserer Adhärenz assoziiert (ρ=0,43, p<0,001; adjustiert: B=0,33, p<0,001). Andere Wissensbereiche (Medikation, Symptome) zeigten keine signifikante Assoziation. Dies deutet darauf hin, dass das Vermitteln von Wissen über Krankheitsprogression und Langzeitfolgen ein wirksamer Fokus für Schulungen ist.",
+  "aufgenommen": "2026-11-13"
+ },
+ {
+  "pmid": "43016929",
+  "journal": "Front Endocrinol (Lausanne)",
+  "year": "2026",
+  "author": "Wu Y et al.",
+  "pubdate": "28.10.2026",
+  "added": "12.11.2026",
+  "transfer": "China, aber Befunde zu Mechanismen zwischen Kompetenz und Verhalten sind kulturübergreifend übertragbar.",
+  "title": "Gesundheitskompetenz und Selbstwirksamkeit fördern Eigenmanagement bei Typ-2-Diabetes",
+  "sum": "Querschnittsstudie mit 387 Typ-2-Diabetes-Patienten in China, die untersucht, wie Gesundheitskompetenz, wahrgenommene Entscheidungsabwägungen und Selbstwirksamkeit das diätetische Eigenmanagement beeinflussen.",
+  "result": "Höhere Gesundheitskompetenz war direkt mit besserem Eigenmanagement assoziiert (β = 0,135, p = 0,043). Gesundheitskompetenz wirkte indirekt über Selbstwirksamkeit auf Eigenmanagement (indirekter Effekt: β = 0,077, 95% KI: 0,017–0,137, p = 0,012). Kommunikative Kompetenz und kritische Kompetenz zeigten unterschiedliche Effektmuster.",
+  "aufgenommen": "2026-11-13"
+ },
+ {
+  "pmid": "43015595",
+  "journal": "BMC Geriatr",
+  "year": "2026",
+  "author": "Wang A et al.",
+  "pubdate": "14.08.2026",
+  "added": "11.11.2026",
+  "transfer": "China; Befund zeigt, dass Kompetenz nicht eindimensional ist; Heterogenitätsmodell für deutsche Altersversorgung relevant.",
+  "title": "Heterogene Gesundheitskompetenzprofile bei älteren Patienten nach Stentimplantation",
+  "sum": "Querschnittsstudie mit 404 älteren Patienten (≥60 Jahre) nach perkutaner Koronarintervention in Shanghai, die mittels latenter Profilanalyse unterschiedliche Kompetenztypen identifizierte.",
+  "result": "Drei Kompetenzprofile wurden identifiziert: niedrige Kompetenz mit hoher Intention (n.s. spezifiziert), moderate Kompetenz, hohe Kompetenz mit hohem Bewältigungsvermögen. Selbstwirksamkeit (OR: signifikant), Familieneinkommen, Familienunterstützung und Familienstand waren unabhängige Prädiktoren der Profilzugehörigkeit (alle p < 0,05). Stratifizierte Interventionen könnten je nach Profil wirksamer sein.",
   "aufgenommen": "2026-11-13"
  },
  {
