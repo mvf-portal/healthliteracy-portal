@@ -2270,7 +2270,7 @@ const DB = [
 
 // Momentaufnahme neuester Studien (PubMed, nach Datum sortiert) — deutsche Zusammenfassungen
 // === STUDIES-BLOCK-START (taeglich 06:00 Uhr von GitHub Actions ersetzt) ===
-const SNAP_DATE = "14. Nov. 2026, 05:22 Uhr";
+const SNAP_DATE = "14. Nov. 2026, 11:42 Uhr";
 const SNAP_STATUS = "neu";
 const STUDIES = [
   {
@@ -2281,6 +2281,51 @@ const STUDIES = [
     sum:"Longitudinale Kohortenstudie mit deutschen Krankenkassen- und Krebsregisterdaten zur Teilnahmequote im Mammographie-Screening über 11 Jahre (Alter 50–60).",
     result:"Etwa 70 % der Frauen nahmen mindestens einmal teil (NRW-Krebsregister: 75,4 %; Krankenkassendaten: 71,0 %), etwa 90 % beim ersten Mal zwischen 50 und 53 Jahren, aber 52,4 % beteiligten sich nicht regelmäßig. Die Querschnittsperspektive unterschätzt die echte Teilnahme erheblich.",
     transfer:"Deutsche Krebsregister- und Krankenkassendaten, repräsentativ für Bevölkerung"
+  },
+  {
+    journal:"Health Expect", year:"2026", pmid:"43031391",
+    author:"Palmer AK et al.", pubdate:"Dez. 2026",
+    added:"14.11.2026",
+    title:"Shared Decision-Making für Ältere mit Multimorbidität: kulturelle Hürden und Gestaltungsprinzipien",
+    sum:"Qualitative Feasibility-Studie mit 20 älteren Personen unterschiedlicher ethnischer Herkunft (Weiße Briten, Afrokaribier, Südasiaten) in Großbritannien, die Patientenmaterialien zur Shared Decision-Making mittels Think-Aloud-Interviews auf Verständlichkeit, Akzeptanz und praktische Anwendbarkeit testete.",
+    result:"Kernbefunde aus der Themenanalyse: Inklusive Botschaften können initiale Akzeptanz erhöhen; Kontinuität in der Beziehung zum Arzt ist zentral; digitale statt analoger Materialien bergen Risiken; Familie und Dritte spielen wichtige Rolle in der Care-Koordination. Zielgruppengerechte Ansätze sind notwendig, um diverse Patienten einzubeziehen.",
+    transfer:"UK-System mit Gatekeeping; übertragbar auf mehrsprachige Settings in Deutschland nur mit Kontextanpassung"
+  },
+  {
+    journal:"Prev Chronic Dis", year:"2026", pmid:"43023548",
+    author:"Daly CJ et al.", pubdate:"12.11.2026",
+    added:"13.11.2026",
+    title:"Gemeinschaftsapotheken als Zugangspunkt für Diabetes-Schulung: Erreichen, Wirkung und Finanzierbarkeit",
+    sum:"Evaluationsstudie einer statewide Initiative in New York mit 44 akkreditierten Apotheken zu Reichweite, klinischen Outcomes und Wirtschaftlichkeit von Diabetes-Selbstmanagement-Schulung, besonders für vulnerable Populationen.",
+    result:"91% der Apotheken lagen in sozial benachteiligten Regionen. Signifikante Verbesserungen bei HbA1c und Lebensqualität. Paraprofessional-gestützte Workflows reduzierten Personalkosten von 6.592 auf 2.169 Dollar pro 6er-Kohorte und wandelten kalkuliertes Nettoverlustszenario in Kostendeckung um.",
+    transfer:"USA; Kostenmodell nicht direkt übertragbar, aber Apotheken-Schulungskonzept relevant für deutsches Versorgungssystem"
+  },
+  {
+    journal:"Prev Chronic Dis", year:"2026", pmid:"43023549",
+    author:"Amin KS et al.", pubdate:"11.11.2026",
+    added:"13.11.2026",
+    title:"ChatGPT zur Anpassung von Gesundheitstexten an Lesefähigkeit: Testfall Kindergesundheit",
+    sum:"Technische Studie mit 200 Kinderkrankheiten und -symptomen, bei der ChatGPT je 36 Erklärungen generierte und systematisch auf Lesbarkeit nach US-Schulklassen (5.–12. Klasse) und Genauigkeit getestet wurde.",
+    result:"Nach Auswahl und Faktenprüfung erreichten Texte medianes Lesealter von 5,8 (Level 1), 7,5 (Level 2), 9,5 (Level 3) und 11,5 (Level 4). 93,5–95,5% der Ausgaben erforderten keine oder minimale Wort-Bearbeitungen. GPT-5 produzierte höhere Qualität als andere Modelle.",
+    transfer:"USA-Schullesealter; sprachabhängig - deutsche Lesbarkeitsindizes und Lesealter unterscheiden sich"
+  },
+  {
+    journal:"J Sch Health", year:"2026", pmid:"43006827",
+    author:"Schmittwilken L et al.", pubdate:"Nov. 2026",
+    added:"10.11.2026",
+    title:"Kann Physical Literacy Schulkinder zu mehr Verständnis und Beteiligung bewegen?",
+    sum:"Mixed-Methods-Studie mit 40 Grundschulkindern in Bremen, Deutschland, die ein Interventionsprogramm zu Physical Literacy (ganzheitlicher Bewegungsrahmen) mit Standard-Sportunterricht verglich und Wahrnehmungen der Kinder durch Gruppeninterviews erfasste.",
+    result:"Physical-Literacy-Intervention übertraf Standard-PE bei kognitiver Aktivierung (z=3,68, p&lt;0,001) und affektivem Sportzugang (z=2,47, p=0,014). Keine Unterschiede bei sozialen Interaktionen, motorischen Fähigkeiten und Unterrichtsmanagement. Kinder schätzten kognitive Stimulation und Mitsprache (voice and choice).",
+    transfer:"Deutsche Primärschule, direkt auf andere Bundesländer übertragbar"
+  },
+  {
+    journal:"Front Public Health", year:"2026", pmid:"43022732",
+    author:"Yang X et al.", pubdate:"29.10.2026",
+    added:"13.11.2026",
+    title:"Digitale Gesundheitskompetenz älterer Menschen: Welche Ressourcen bestimmen Zugang und Verhalten?",
+    sum:"Quantitative Querschnittstudie mit Bayesian-Netzwerk-Analyse zu Struktur und Muster von kulturellem, sozialem, ökonomischem und psychologischem Kapital bei der Informationssuche zu Gesundheit älterer Erwachsener in China (n=große Stichprobe).",
+    result:"Kulturelles Kapital nimmt zentrale Position ein und verbessert Selbstwirksamkeit und Informationsbewertung. Psychologisches Kapital vermittelt über mehrere Pfade. Soziales und politisches Kapital liefern Unterstützung. Ökonomisches Kapital wirkt indirekt. Unterschiedliche Kapitalformen erzeugen direkte, indirekte und kreuzweise Wirkpfade.",
+    transfer:"China; konzeptuell auf ungleiche Zugangslagen in Deutschland übertragbar, aber unterschiedliche Sozialsysteme"
   },
 ];
 // === STUDIES-BLOCK-ENDE ===
