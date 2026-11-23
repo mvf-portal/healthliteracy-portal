@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- erzeugt von hub-scripts/studienseiten.py -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>https://healthliteracy.m-vf.de/</loc><lastmod>2026-11-22</lastmod></url>
-<url><loc>https://healthliteracy.m-vf.de/studie/</loc><lastmod>2026-11-22</lastmod></url>
+<url><loc>https://healthliteracy.m-vf.de/</loc><lastmod>2026-11-23</lastmod></url>
+<url><loc>https://healthliteracy.m-vf.de/studie/</loc><lastmod>2026-11-23</lastmod></url>
 <url><loc>https://healthliteracy.m-vf.de/neue-studien.html</loc></url>
 <url><loc>https://healthliteracy.m-vf.de/newsletter.html</loc></url>
 <url><loc>https://healthliteracy.m-vf.de/themen-quellen.html</loc></url>
+<url><loc>https://healthliteracy.m-vf.de/studie/43067659/</loc><lastmod>2026-11-23</lastmod></url>
+<url><loc>https://healthliteracy.m-vf.de/studie/43066128/</loc><lastmod>2026-11-23</lastmod></url>
+<url><loc>https://healthliteracy.m-vf.de/studie/43059328/</loc><lastmod>2026-11-23</lastmod></url>
+<url><loc>https://healthliteracy.m-vf.de/studie/43058509/</loc><lastmod>2026-11-23</lastmod></url>
+<url><loc>https://healthliteracy.m-vf.de/studie/43052994/</loc><lastmod>2026-11-23</lastmod></url>
+<url><loc>https://healthliteracy.m-vf.de/studie/43049049/</loc><lastmod>2026-11-23</lastmod></url>
 <url><loc>https://healthliteracy.m-vf.de/studie/43064985/</loc><lastmod>2026-11-22</lastmod></url>
 <url><loc>https://healthliteracy.m-vf.de/studie/43064935/</loc><lastmod>2026-11-22</lastmod></url>
 <url><loc>https://healthliteracy.m-vf.de/studie/43064872/</loc><lastmod>2026-11-22</lastmod></url>
